@@ -1,4 +1,4 @@
-For this project, the file(s) inside of the Project_Notebook .zip file are very important- it is important to view the notebook (in either its .ipynb or .html form, reading both would likely be redundant to you) to fully understand this project!
+For this project, the file(s) inside of the Project_Notebook .zip file are very important- it is important to view the notebook (in either its .ipynb or .html form, reading both would likely be redundant to you) to fully understand this project! This project had a rubric for its development: the notebook makes it very clear specifically what I have done to address each step of that rubric minus the GitHub part (which is covered by this repository) and the Streamlit part (which is of course covered by the Streamlit app itself).
 
 The Streamlit app is essentially a simplified, distilled version of what is present in the notebook: the link to that app is here -
 
