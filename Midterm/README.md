@@ -1,4 +1,4 @@
-For this project, the file(s) inside of the Project_Notebook .zip file are very important.
+For this project, the file(s) inside of the Project_Notebook .zip file are very important- it is important to view the notebook (in either its .ipynb or .html form, reading both would likely be redundant to you) to fully understand this project!
 
 The .ipynb (Jupyter Notebook) file is somewhat large- I uploaded a .zip file so that 1.) the .ipynb file could be uploaded to this repo at all, and 2.) so that I could include an .html file version of the notebook if you do not have a partiular interest in running the Jupyter code cells yourself (likely isn't really necessary for this project). If you have any errors with the .ipynb, just take a look at the .html instead, it includes all the same information.
 
