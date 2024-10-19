@@ -1,4 +1,4 @@
-# Refer to the Detailed_Instructions folder for more specific documentation.
+# Refer to the Detailed_Instructions folder for more specific documentation on Project Installation.
 
 This project aims to explore the relationship between anti-cancer peptides and their effectiveness in combating breast cancer. It focuses on two main aspects: identifying the primary factors contributing to breast cancer and assessing the efficacy of various peptides. The ultimate goal is to discover the most effective anti-cancer solutions by understanding the characteristics that make a peptide successful and how such peptides can influence cancerous cells for effective treatment.
 
