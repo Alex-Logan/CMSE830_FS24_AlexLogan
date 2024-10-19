@@ -87,8 +87,8 @@ try:
 except FileNotFoundError:
     # If the first attempt fails, try loading from the GitHub path
     try:
-        breastcancer = pd.read_csv('Midterm/Raw Data/breastcancer.csv')
-        peptides_b = pd.read_csv('Midterm/Raw Data/peptides_b.csv')
+        breastcancer = pd.read_csv('Midterm/Raw_Data/breastcancer.csv')
+        peptides_b = pd.read_csv('Midterm/Raw_Data/peptides_b.csv')
     except FileNotFoundError:
         # If both attempts fail, display an error message
         st.error("Error loading datasets: Make sure the files are in the correct directory.")
