@@ -29,27 +29,29 @@ This dashboard is a condensed version of a documented dataset research project t
 
 Please see the "Introduction" section for more details.
 """)
-
-# Load the theme configuration from the config.toml file
 # Get the directory of the current file
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct the path to the config.toml file
 config_path = os.path.join(current_dir, '.streamlit', 'config.toml')
 
-# Load the configuration file
-config = toml.load(config_path)
-current_theme = config['theme']['base']
+# Load the theme configuration from the config.toml file
+try:
+    config = toml.load(config_path)
+    current_theme = config.get('theme', {}).get('base', 'light')  # Default to 'light' if not found
+except (FileNotFoundError, toml.TomlDecodeError) as e:
+    st.warning("Could not load config.toml, defaulting to light theme.")
+    current_theme = 'light'  # Default to light if there's an error
 
 # Display Mode Section
 st.sidebar.header("Display Mode")
-mode_options = ["Light", "Dark"]
+mode_options = ["Light", "Dark", "Red", "Gold", "Blue", "Green", "Purple", "Orange", "Pink"]
 
 # Use session state to store the theme and update it dynamically
 if 'theme' not in st.session_state:
     st.session_state.theme = current_theme
 
-selected_mode = st.sidebar.selectbox("If this does not work automatically, please refresh the page.", mode_options, index=0 if st.session_state.theme == 'light' else 1)
+selected_mode = st.sidebar.selectbox("Choose theme:", mode_options, index=0 if st.session_state.theme == 'light' else 1)
 
 # Apply the selected theme instantly
 if selected_mode == "Dark":
@@ -57,8 +59,133 @@ if selected_mode == "Dark":
     st.markdown(
         """
         <style>
-        [theme]
-        base="dark"
+        .stApp {
+            background-color: #1e1e1e;  /* Dark background */
+            color: gray;  /* Gray text */
+        }
+        .sidebar .sidebar-content {
+            background-color: #1e1e1e;  /* Dark sidebar */
+            color: gray;  /* Gray sidebar text */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+elif selected_mode == "Red":
+    st.session_state.theme = 'red'
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background-color: #ffcccc;  /* Light red background */
+            color: #990000;  /* Dark red text */
+        }
+        .sidebar .sidebar-content {
+            background-color: #ff9999;  /* Red sidebar */
+            color: #990000;  /* Dark red sidebar text */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+elif selected_mode == "Gold":
+    st.session_state.theme = 'gold'
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background-color: #fff8dc;  /* Light gold background */
+            color: #b8860b;  /* Dark gold text */
+        }
+        .sidebar .sidebar-content {
+            background-color: #ffe135;  /* Gold sidebar */
+            color: #b8860b;  /* Dark gold sidebar text */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+elif selected_mode == "Blue":
+    st.session_state.theme = 'blue'
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background-color: #add8e6;  /* Light blue background */
+            color: #00008b;  /* Dark blue text */
+        }
+        .sidebar .sidebar-content {
+            background-color: #87cefa;  /* Blue sidebar */
+            color: #00008b;  /* Dark blue sidebar text */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+elif selected_mode == "Green":
+    st.session_state.theme = 'green'
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background-color: #d9f9d9;  /* Light green background */
+            color: #006400;  /* Dark green text */
+        }
+        .sidebar .sidebar-content {
+            background-color: #98fb98;  /* Green sidebar */
+            color: #006400;  /* Dark green sidebar text */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+elif selected_mode == "Purple":
+    st.session_state.theme = 'purple'
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background-color: #e6e6fa;  /* Lavender background */
+            color: #4b0082;  /* Dark purple text */
+        }
+        .sidebar .sidebar-content {
+            background-color: #d8bfd8;  /* Thistle sidebar */
+            color: #4b0082;  /* Dark purple sidebar text */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+elif selected_mode == "Orange":
+    st.session_state.theme = 'orange'
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background-color: #ffebcc;  /* Light orange background */
+            color: #ff4500;  /* Dark orange text */
+        }
+        .sidebar .sidebar-content {
+            background-color: #ffcc99;  /* Orange sidebar */
+            color: #ff4500;  /* Dark orange sidebar text */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+elif selected_mode == "Pink":
+    st.session_state.theme = 'pink'
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background-color: #ffe4e1;  /* Light pink background */
+            color: #ff1493;  /* Dark pink text */
+        }
+        .sidebar .sidebar-content {
+            background-color: #ffb6c1;  /* Pink sidebar */
+            color: #ff1493;  /* Dark pink sidebar text */
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -68,17 +195,21 @@ else:  # Default to Light mode
     st.markdown(
         """
         <style>
-        [theme]
-        base="light"
+        .stApp {
+            background-color: #ffffff;  /* Light background */
+            color: black;  /* Dark text */
+        }
+        .sidebar .sidebar-content {
+            background-color: #f0f0f0;  /* Light sidebar */
+            color: black;  /* Dark sidebar text */
+        }
         </style>
         """,
         unsafe_allow_html=True,
     )
 
-# Update the config file to reflect the current theme selection
-with open('.streamlit/config.toml', 'w') as f:
-    f.write(f"[theme]\nbase=\"{st.session_state.theme}\"\n")
-
+# Display a message to indicate the current theme
+st.write(f"Current theme: {st.session_state.theme.capitalize()}")
 
 # Load datasets for later use
 try:
