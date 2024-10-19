@@ -1,3 +1,5 @@
+# Refer to the Detailed_Instructions folder for more specific documentation.
+
 This project aims to explore the relationship between anti-cancer peptides and their effectiveness in combating breast cancer. It focuses on two main aspects: identifying the primary factors contributing to breast cancer and assessing the efficacy of various peptides. The ultimate goal is to discover the most effective anti-cancer solutions by understanding the characteristics that make a peptide successful and how such peptides can influence cancerous cells for effective treatment.
 
 For this project, the file(s) inside of the Project_Notebook .zip file are very useful to look through- it is helpful to view the notebook (in either its .ipynb or .html form, reading both would likely be redundant to you) to fully understand this project! This project had a rubric for its development: the notebook makes it very clear specifically what I have done to address each step of that rubric minus the GitHub part (which is covered by this repository) and the Streamlit part (which is of course covered by the Streamlit app itself).
