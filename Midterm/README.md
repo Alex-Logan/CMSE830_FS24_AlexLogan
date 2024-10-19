@@ -4,7 +4,7 @@ This project aims to explore the relationship between anti-cancer peptides and t
 
 ## Project Overview
 
-For this project, the file(s) inside the `Project_Notebook.zip` file are very useful to look through. It is helpful to view the notebook (in either its `.ipynb` or `.html` form; reading both would likely be redundant) to fully understand this project! This project had a rubric for its development: the notebook makes it very clear specifically what I have done to address each step of that rubric, minus the GitHub part (which is covered by this repository) and the Streamlit part (which is of course covered by the Streamlit app itself).
+For this project, the file(s) inside the `Project_Notebook.zip` file are very useful to look through. It is helpful to view the notebook (in either its `.ipynb` or `.html` form; reading both would likely be redundant) to fully understand this project! This project had a rubric for its development: the notebook makes it very clear specifically what I have done to address each step of that rubric, minus the GitHub part (which is covered by this repository) and the Streamlit part (which is of course covered by the Streamlit app itself). Additionally, the notebook contains some additional visualizations, sections, discussion etc. that either didn't play nice with Streamlit integration, or simply bloated the app too much. I **highly** reccomend viewing the notebook to see this project in its true entirety.
 
 The Streamlit app is essentially a simplified, distilled version of what is present in the notebook. The link to that app is here - [Streamlit App](https://cmse830fs24alexlogan-peptides-research.streamlit.app/).
 
