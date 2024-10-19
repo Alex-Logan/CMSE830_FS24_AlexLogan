@@ -416,7 +416,7 @@ elif page == "Handling the Data":
     
     **One-Hot Encoding:** If there were more than two unique classes, one-hot encoding was applied to create separate binary columns for each class. This allows the model to interpret each class independently without imposing an ordinal relationship.
     
-    The print statement that follows indicates that One-Hot encoding was applied, which isn't a surprise- the earlier IDA indicated that the dataset was multi-class. Still, you can never go wrong with building a more advanced multi-purpose method to handle more options, especially for the future.
+    The print statement near the top of this section indicates that One-Hot encoding was applied- the occasional statements of the type you will see within this notebook are the outputs of invisible code chunks running behind the scenes to process the data in real-time. This result isn't a surprise- the earlier IDA indicated that the dataset was multi-class. 
     """)
 
     # Display the updated peptides dataset
@@ -437,7 +437,7 @@ elif page == "Handling the Data":
     peptides_b.drop_duplicates(inplace=True)
 
     st.markdown("""
-    Ok, we've technically demonstrated one way to handle missingness now, but we'll talk on it a bit more in a moment. We already know there are no duplicates that need to be removed- the code to do so is provided for the sake of demonstrating how it would be done should the need arise in the final project.
+    Ok, we've technically demonstrated one way to handle missingness now, but we'll talk on it a bit more in a moment. We already know there are no duplicates that need to be removed.
     
     Before we get to discussing missingness (and imputation) further, though, there's a couple more things to talk through. Let's address those outliers we found in our IDA earlier. Since we're examining data from human bodies, where one is never quite the same as the next, it seems risky to remove the outliers outright. Instead, let's apply standardization. Since we'll be doing linear regression later, this is a better choice than normalization. We'll exclude id and diagnosis from the standardization because it is not meaningful to apply to those columns, and would actively mess up the diagnosis column.
     """)
