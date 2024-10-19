@@ -142,8 +142,7 @@ elif page == "Data Loading":
     st.header("Data Loading and Preparation")
     
     # Load datasets
-    breastcancer = pd.read_csv('breastcancer.csv')
-    peptides_b = pd.read_csv('peptides_b.csv')
+    
 
     # Display heads of both datasets
     st.subheader("Preview of Datasets")
