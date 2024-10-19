@@ -1,7 +1,20 @@
 # CMSE830_FS24_AlexLogan
 
-This repository is where my project work lives for CMSE 830 (Foundations of Data Science) at Michigan State University. You'll find two base folders here: one for the Midterm project, and one for the Final. Currently, there is only the Midterm project, which involves cancer research, specifically in the observing of the possible anticancer effects of certain peptides, which acid(s) within those peptides might be the most important, what cancerous factors they might help fight, and what attributes the "best" anticancer peptides might have. My final project, tentatively, is planned to continue this, but that is subject to change.
+Welcome to my project repository for CMSE 830 (Foundations of Data Science) at Michigan State University. This repository contains two main folders: one for the Midterm project and another for the Final project. Currently, only the Midterm project is available, which focuses on cancer research—specifically, exploring the potential anticancer effects of certain peptides. 
 
-IMPORTANT NOTE: There are more detailed README files in the appropriate folders (read: there is right now for the Midterm, and there will be for the final when this repo is complete). Importantly, you can find the project's overview and setup instructions in the secondary README file found in the appropriate folder.
+### Project Focus
 
-This is done for organization's sake.
+In this project, I investigate the following:
+
+- The specific acids within peptides that may be most important in combating cancer.
+- The cancerous factors that these peptides might help fight.
+- The attributes that characterize the "best" anticancer peptides.
+
+The Final project is tentatively planned to continue this research, but this is subject to change.
+
+## Important Notes
+
+- There are more detailed README files in the respective project folders. For the Midterm project, a secondary README file contains an overview and setup instructions. A similar file will be included for the Final project once it is complete.
+- This structure is designed for better organization and clarity.
+
+Feel free to explore the repository, and don’t hesitate to reach out if you have any questions!
