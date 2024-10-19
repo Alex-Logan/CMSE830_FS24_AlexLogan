@@ -416,7 +416,7 @@ elif page == "Handling the Data":
     
     **One-Hot Encoding:** If there were more than two unique classes, one-hot encoding was applied to create separate binary columns for each class. This allows the model to interpret each class independently without imposing an ordinal relationship.
     
-    The print statement near the top of this section indicates that One-Hot encoding was applied- the occasional statements of the type you will see within this notebook are the outputs of invisible code chunks running behind the scenes to process the data in real-time. This result isn't a surprise- the earlier IDA indicated that the dataset was multi-class. 
+    The print statement near the top of this section indicates that One-Hot encoding was applied- the occasional statements of the type you will see within this app are the outputs of invisible code chunks running behind the scenes to process the data in real-time. This result isn't a surprise- the earlier IDA indicated that the dataset was multi-class. 
     """)
 
     # Display the updated peptides dataset
