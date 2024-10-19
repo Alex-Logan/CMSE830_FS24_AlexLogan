@@ -1,0 +1,10 @@
+collections
+matplotlib
+numpy
+pandas
+plotly
+scipy
+seaborn
+sklearn
+streamlit
+toml
