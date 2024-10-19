@@ -81,20 +81,18 @@ with open('.streamlit/config.toml', 'w') as f:
 
 
 # Load datasets for later use
-# Define the folder where the datasets are located
-data_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Midterm', 'Raw Data')
-
-# Construct the paths to the datasets
-breastcancer_path = os.path.join(data_folder, 'breastcancer.csv')
-peptides_b_path = os.path.join(data_folder, 'peptides_b.csv')
-
-# Load the datasets with error handling
 try:
-    breastcancer = pd.read_csv(breastcancer_path)
-    peptides_b = pd.read_csv(peptides_b_path)
-except FileNotFoundError as e:
-    st.error("Error loading datasets: Make sure the files are in the correct directory.")
-    st.stop()
+    breastcancer = pd.read_csv('breastcancer.csv')
+    peptides_b = pd.read_csv('peptides_b.csv')
+except FileNotFoundError:
+    # If the first attempt fails, try loading from the GitHub path
+    try:
+        breastcancer = pd.read_csv('Midterm/Raw Data/breastcancer.csv')
+        peptides_b = pd.read_csv('Midterm/Raw Data/peptides_b.csv')
+    except FileNotFoundError:
+        # If both attempts fail, display an error message
+        st.error("Error loading datasets: Make sure the files are in the correct directory.")
+        st.stop()
 
 # Create a copy of the peptides dataset
 peptides_copy = peptides_b.copy()
