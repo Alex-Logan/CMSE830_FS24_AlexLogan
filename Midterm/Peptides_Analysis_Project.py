@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import toml
 import pandas as pd  # Ensure pandas is imported for data manipulation
@@ -30,7 +31,14 @@ Please see the "Introduction" section for more details.
 """)
 
 # Load the theme configuration from the config.toml file
-config = toml.load('.streamlit/config.toml')
+# Get the directory of the current file
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the path to the config.toml file
+config_path = os.path.join(current_dir, '.streamlit', 'config.toml')
+
+# Load the configuration file
+config = toml.load(config_path)
 current_theme = config['theme']['base']
 
 # Display Mode Section
