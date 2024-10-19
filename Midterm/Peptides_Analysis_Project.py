@@ -588,7 +588,7 @@ elif page == "Handling the Data":
     st.write("MSE for MICE Imputation:", mse_mice)
 
     st.markdown("""
-    Well that's interesting! Mean imputation, which replaces missing values with the mean of each feature, results in the highest MSE- by far. This is because mean imputation oversimplifies the data by ignoring the relationships between features, leading to distorted results. As a result, the imputed values significantly deviate from the true data, reflected in the MSE value of nearly 1- that's basically Completely Wrong.
+    Well that's interesting! Mean imputation, which replaces missing values with the mean of each feature, results in the highest MSE- by far. This is because mean imputation oversimplifies the data by ignoring the relationships between features, leading to distorted results. As a result, the imputed values significantly deviate from the true data, reflected in the VERY high MSE value!.
     
     KNN imputation performs better, yielding a much lower MSE. This method looks at the nearest neighbors in the dataset and fills in missing values based on patterns in similar data points. KNN captures local relationships between variables, which leads to a more accurate estimation of the missing values compared to mean imputation. However, it may still fall short in capturing broader patterns or when data is sparse, but overall, it actually does quite good!
     
