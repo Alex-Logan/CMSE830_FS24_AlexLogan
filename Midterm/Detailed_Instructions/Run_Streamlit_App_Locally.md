@@ -51,7 +51,7 @@ You’ll need the following libraries to get everything running smoothly:
    streamlit run Peptides_Analysis_Project.py
    ```
 
-5. **Explore Your Creation**:  
+5. **Explore The App**:  
    Once the command is executed:
    - Your Streamlit dashboard should open automatically in your web browser at `http://localhost:8501`.
    - If it doesn't, simply navigate to `http://localhost:8501` in your browser to view the dashboard.
