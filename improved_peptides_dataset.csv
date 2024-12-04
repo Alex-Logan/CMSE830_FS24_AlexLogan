@@ -1,0 +1,902 @@
+Patient_ID,Age,Gender,Smoking_History,Tumor_Size_mm,Tumor_Location,Stage,Treatment,Survival_Months,Ethnicity,Insurance_Type,Family_History,Comorbidity_Diabetes,Comorbidity_Hypertension,Comorbidity_Heart_Disease,Comorbidity_Chronic_Lung_Disease,Comorbidity_Kidney_Disease,Comorbidity_Autoimmune_Disease,Comorbidity_Other,Performance_Status,Blood_Pressure_Systolic,Blood_Pressure_Diastolic,Blood_Pressure_Pulse,Hemoglobin_Level,White_Blood_Cell_Count,Platelet_Count,Albumin_Level,Alkaline_Phosphatase_Level,Alanine_Aminotransferase_Level,Aspartate_Aminotransferase_Level,Creatinine_Level,LDH_Level,Calcium_Level,Phosphorus_Level,Glucose_Level,Potassium_Level,Sodium_Level,Smoking_Pack_Years,cancer_type,class,sequence,class_encoded,class_inactive - exp,ID,class_inactive - virtual,class_mod. active,class_very active
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,AIGKFLHSAKKFGKAFVGEIMNS,2,0.0,1,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKALAKLAKKLL,2,0.0,2,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKALKALLKALKAL,2,0.0,3,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKFLAKFLKKAL,2,0.0,4,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKIIAKIAKIAKKIL,0,1.0,5,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKKFAKKFKKFAKKFAKFAFAF,2,0.0,6,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLAKKLAKAAL,0,1.0,7,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLAKKLAKAL,0,1.0,8,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLAKKLAKLAL,0,1.0,9,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLAKKLAKLL,0,1.0,10,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLAKKLKKLAKKLAK,0,1.0,11,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKKLAKKLKKLAKKLAKKWKL,2,0.0,12,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLAKKLKKLAKKLAKLAKKL,0,1.0,13,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKKLAKKLKKLAKKLAKLALALKALALKAL,2,0.0,14,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKKLAKKLKKLAKKLIGAVLKV,2,0.0,15,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLAKKLKKLAKLALAK,0,1.0,16,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLAKKLKKLAKLALAL,0,1.0,17,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLAKKLL,0,1.0,18,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLAKLAKKALAL,0,1.0,19,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLAKLAKKL,0,1.0,20,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKKLAKLAKKLAKLAL,2,0.0,21,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKKLAKLAKKLAKLALAL,2,0.0,22,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKKLAKLAKKLLAL,2,0.0,23,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKKLAKLALKLAKL,2,0.0,24,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLKKLAKLAKKL,0,1.0,25,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKKLLAKALKL,0,1.0,26,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLAKKALAKLL,0,1.0,27,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLF,0,1.0,28,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLFAKLAKKFAL,0,1.0,29,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKLLAKALKKAL,2,0.0,30,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKLLAKALKKFAL,2,0.0,31,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKLLAKALKKFL,2,0.0,32,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLAKALKKL,0,1.0,33,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,FAKLLAKALKKLL,3,0.0,34,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLAKALKLKL,0,1.0,35,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKLLAKFLKKAL,2,0.0,36,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLAKLAKAKL,0,1.0,37,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLAKLAKKAA,0,1.0,38,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLAKLAKKAL,0,1.0,39,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLAKLAKKFAL,0,1.0,40,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLAKLAKKGL,0,1.0,41,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLAKLAKKIL,0,1.0,42,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLAKLAKKL,0,1.0,43,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,FAKLLAKLAKKLL,3,0.0,44,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLAKLAKKSL,0,1.0,45,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKLLAKLAKKVL,2,0.0,46,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLAKLAKLKL,0,1.0,47,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLFKALKKAL,0,1.0,48,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLLKLAAKKLL,0,1.0,49,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FAKLWAKLAFGKGIGKVGKKLL,2,0.0,50,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAKLWAKLAKKL,0,1.0,51,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FALAAKALKKLAKKLKKLAKKAL,2,0.0,52,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FALAKLAKKAKAKLKKALKAL,2,0.0,53,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FALALKALKK,0,1.0,54,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FALALKALKKAL,0,1.0,55,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FALALKALKKALKKLKKALKKAL,0,1.0,56,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FALALKALKKL,2,0.0,57,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FALALKALKKLAKKLKKLAKKAL,2,0.0,58,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FALALKALKKLKKALKKAL,2,0.0,59,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FALALKALKKLLKKLKKLAKKAL,2,0.0,60,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FALALKKALKALKKAL,2,0.0,61,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FALALKLAKKAL,0,1.0,62,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FALKALKKLKKALKKAL,2,0.0,63,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FALLKALKKAL,0,1.0,64,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FALLKALLKKAL,0,1.0,65,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FAVGLRAIKRALKKLRRGVRKVAKDL,0,1.0,66,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FKLAFKLAKKAFL,0,1.0,67,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FKRLAKIKVLRLAKIKR,2,0.0,68,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FKVKFKVKVK,0,1.0,69,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FLGALFHALSKLL,2,0.0,70,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FLGALFKALSHLL,2,0.0,71,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FLGALFKALSKLL,2,0.0,72,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,FLGMIPGLIGGLISAFK,3,0.0,73,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,FLGMIPKLIKKLIKAFK,3,0.0,74,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FLGWLFKWAKK,2,0.0,75,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FLGWLFKWAWK,2,0.0,76,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FLKLLAGLLKNFA,2,0.0,77,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,FLKLLKKLAAKFLPTIICKISYKC,3,0.0,78,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FLKLLKKLAAKLF,2,0.0,79,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FLKWLFKWAKK,2,0.0,80,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,FLSLIPKLVKKIIKAFK,3,0.0,81,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,FLSLIPSLVGGSISAFK,0,1.0,82,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,FLWWLFKWAWK,2,0.0,83,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GIGAVLKVLTTGLPALISWIKRKRQQ,2,0.0,84,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GIGKFLHAAKKFAKAFVAEIMNS,2,0.0,85,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GIGKFLHSAKKFAKAFVAEIMNS,2,0.0,86,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GIGKFLHSAKKFGKAFVGEIMNS,2,0.0,87,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,GIGKFLKKAKKFAKAFVKIINN,3,0.0,88,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,GIGKFLKKAKKFGKAFVKILKK,0,1.0,89,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFAVIKKVAAVIKKL,2,0.0,90,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFAVIKKVAAVIRRL,2,0.0,91,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,GLFAVIKKVAKVIKKL,3,0.0,92,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,GLFAVIKKVASVIGGL,3,0.0,93,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFAVIKKVASVIKGL,2,0.0,94,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFAVIKKVASVIKKL,2,0.0,95,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFDIAKKVIGVIGSL,2,0.0,96,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFDIIKKIAESF,2,0.0,97,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFDIVKKIAGHIAGSI,2,0.0,98,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFDIVKKIAGHIASSI,2,0.0,99,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFDIVKKIAGHIVSSI,2,0.0,100,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFDIVKKVVGAFGSL,2,0.0,101,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFDVIAKVASVIKKL,2,0.0,102,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFDVIKAVASVIGGL,2,0.0,103,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFDVIKKVAAVIGGL,2,0.0,104,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFDVIKKVASVIGGL,2,0.0,105,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFDVIKKVASVIKGL,2,0.0,106,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFDVIKKVASVIKKL,2,0.0,107,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFKVIKKVAKVIKKL,2,0.0,108,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,GLFKVIKKVASVIGGL,2,0.0,109,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,ILPWKWPWWPWRR,0,1.0,110,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KKKFPWWWPFKKK,2,0.0,111,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KKKFPWWWPFKKKCKKKFPWWWPFKKKC,3,0.0,112,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KKKFPWWWPFKKKKKKFPWWWPFKKKK,3,0.0,113,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,KKVVFKVKFK,0,1.0,114,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KLAKKLAKLAKLAKAL,2,0.0,115,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,KLALKLALKALKAAKLA,0,1.0,116,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KTKLFKKFAKKLAKKLKKLAKKL,2,0.0,117,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KWKKFLKIGIGKFLHLAKKF,3,0.0,118,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,KWKLAKKALALL,0,1.0,119,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KWKLFAKIGIGKFLHLAKKF,3,0.0,120,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KWKLFKKALKKLKKALKKAL,2,0.0,121,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KWKLFKKIGAVLKVL,2,0.0,122,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KWKLFKKIGIGAFLHLAKKF,3,0.0,123,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KWKLFKKIGIGAFLHSAKKF,2,0.0,124,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KWKLFKKIGIGAVLKVLKKG,3,0.0,125,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KWKLFKKIGIGAVLKVLTTG,2,0.0,126,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KWKLFKKIGIGKFKLAKKF,3,0.0,127,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KWKLFKKIGIGKFLHLAKKF,3,0.0,128,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KWKLFKKIGIGKFLHSAKKF,2,0.0,129,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KWKLFKKIGIGKFLHSATTF,2,0.0,130,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,KWKLFKKIKFLHSAKKF,0,1.0,131,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KWKLFKKIPKFLHSAKKF,2,0.0,132,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KWKLFKKKTKLFKKFAKKLAKKL,2,0.0,133,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KWKSFAKTFKSAKKTVLHTALKAISS,2,0.0,134,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KWKSFLKTFKSAKKTVAHTAAKAISS,2,0.0,135,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,KWKSFLKTFKSAKKTVAHTALKAISS,2,0.0,136,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KWKSFLKTFKSAKKTVLHTALKAISS,3,0.0,137,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KWKSFLKTFKSAKKTVLHTLLKAISS,3,0.0,138,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KWKSFLKTFKSLKKTVLHTALKAISS,3,0.0,139,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KWKSFLKTFKSLKKTVLHTLLKAISS,3,0.0,140,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,KWKSFLKTFKSLKKTVLHTLLKLISS,3,0.0,141,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,KYKKALKKLAKLL,0,1.0,142,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,LGGIVSAVKKIVDFLG,2,0.0,143,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,LPKWKVFKKIEKVGRNIRNGIVKAGPAIAVLGEAKALG,2,0.0,144,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,MPKWKVFKKIEKVGRNIRNGIVKAGPAIAVLGEAKALG,0,1.0,145,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,RAGLQFPVGRLLRRLLRRLLR,3,0.0,146,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,very active,VAKKLAKLAKKLAKLAL,3,0.0,147,0.0,0.0,1.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,mod. active,VAKLLAKLAKKLL,2,0.0,148,0.0,1.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,VAKLLAKLAKKVL,0,1.0,149,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,VALALKALKKALKKLKKALKKAL,0,1.0,150,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - exp,WALAL,0,1.0,151,0.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AADIFSKFKKDMEVKFA,1,0.0,152,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AAQKDNVKSSWAKASA,1,0.0,153,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AASQRKLIAEKFAQALMSSL,1,0.0,154,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AAYATLYEALVLVATLAAP,1,0.0,155,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AEAHESIRLVFHDS,1,0.0,156,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AEGEREARVFTLWLNSL,1,0.0,157,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AEGVATADPLMRLAKQLK,1,0.0,158,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AEHAKVLMDSLTGVWDNFLT,1,0.0,159,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AEHLAKAELTTVFSTLYQKF,1,0.0,160,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AEKAKYDEIFLKT,1,0.0,161,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AFFTIAAVARVLD,1,0.0,162,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AFRHSVKEELNYIRRRLERFPNRL,1,0.0,163,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AGDVLHNVLQMLIIESHS,1,0.0,164,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AGEMVRQARILAQATSDLVNAIKADA,1,0.0,165,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AGNLDIMTSAALATAERMAQSMLN,1,0.0,166,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AHAIGVLLDNL,1,0.0,167,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AIEKEILIEAISS,1,0.0,168,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AKQEKIIIQVALNDITHVVELL,1,0.0,169,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AKVVRTALEDAASVAGLLIT,1,0.0,170,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,ALAVAAKPFL,1,0.0,171,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,ALGKVIKKWGTTVAKLA,1,0.0,172,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,ALYGLLKEEMGEILAK,1,0.0,173,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AMFEQMRANVGKLLKG,1,0.0,174,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,APDAEGRAIQAVYWANKWAKEQG,1,0.0,175,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,APDLLISLATVLYHLQQ,1,0.0,176,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,APEDVRKSSKEVL,1,0.0,177,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,APLLNFVRDFVREDAKYLYSSLV,1,0.0,178,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AQTSRWAAMQIGMSFISAY,1,0.0,179,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,ARDEAEMEYLKIAQ,1,0.0,180,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,ASLPEAIEALTKG,1,0.0,181,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,ATLKNLGSVHVSKG,1,0.0,182,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,AVDTLVLALAEAT,1,0.0,183,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DAAALFRLHKFLTKW,1,0.0,184,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DAAGLASRHKG,1,0.0,185,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DAENRDLFLALLSV,1,0.0,186,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DAHAWMIGQLKGL,1,0.0,187,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DALEIFKTLFSLVMRFSSYL,1,0.0,188,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DAMLRTSMVATQLVGLAMMRYV,1,0.0,189,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DARAKKLLDKWAKWING,1,0.0,190,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DATAALALTMA,1,0.0,191,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DATLISELQQM,1,0.0,192,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DDADLEKFVIEY,1,0.0,193,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DDETLGVLMWILDRSIH,1,0.0,194,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DDETREELEELLIQA,1,0.0,195,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DDRVQSHILHLEHDLVHVTRKN,1,0.0,196,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DDYLKEQVLHMKQYVSDN,1,0.0,197,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DEAAFQKLMSNLD,1,0.0,198,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DEAGLMRELRLFRRRIMVRIAWAQTL,1,0.0,199,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DEETMERIMRELKKK,1,0.0,200,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DEFTKQHIVGK,1,0.0,201,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DEKAFKNTYRQAMND,1,0.0,202,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DEKKILKDFLIQ,1,0.0,203,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DEKSIITYVSSLYDAM,1,0.0,204,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DELLSKMRFAL,1,0.0,205,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DEPQVQAKIMAYLQQEQSNR,1,0.0,206,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DEQYREGAVRTVASFRERLDR,1,0.0,207,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DERLLQKYRAQVFEWG,1,0.0,208,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DEVLLALAEQLGT,1,0.0,209,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DFAALAQTAHRLKGVFAMLN,1,0.0,210,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DFLEEQYKGQRDLAGKASTLKK,1,0.0,211,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DFPALIKQASLDALFK,1,0.0,212,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DFSETINAYFVAKLL,1,0.0,213,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DGALKRAEELKTQANDYFK,1,0.0,214,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DGFSVLMRAMQQ,1,0.0,215,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DGGGFVISKHPVRLAKKLNR,1,0.0,216,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DHAVLEVLATPVREALLARFG,1,0.0,217,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DIFDFMERWIEKKLEYSASH,1,0.0,218,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DIHAAIEMLLG,1,0.0,219,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DIIGTEITSALKNVYSIAIAWIRGYESRKN,1,0.0,220,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DILREIGMIARALDSISNIEF,1,0.0,221,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DIRAVLRDLSFHLNGHILHSIFWPNM,1,0.0,222,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DIRTSLANDMAIYGDIIEATREHTELAENL,1,0.0,223,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DIYQQVRDELKRAS,1,0.0,224,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DKETMNIHHTK,1,0.0,225,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DLAANNGGWQWS,1,0.0,226,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DLARIEQFLDALWLE,1,0.0,227,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DLEAKKMYFDAVQAIETHL,1,0.0,228,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DLESDALGWQYITG,1,0.0,229,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DLGRKITSALRSLSN,1,0.0,230,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DLKQAESWLHKQAQKEGWSKAARLH,1,0.0,231,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DLKRAESMLQQA,1,0.0,232,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DLKTMTERLRS,1,0.0,233,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DLQLNANAERINVYY,1,0.0,234,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DLRELIARVRALIRRKS,1,0.0,235,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DLSASRSAIDSLNNRMLSQIWSH,1,0.0,236,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DLVDFAVEYFTRLREARRGLEHHH,1,0.0,237,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DMASLQQQRQE,1,0.0,238,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DMNQVLDAYEN,1,0.0,239,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DNAMANQYETLANARQKGIEKYL,1,0.0,240,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DNKTRFKIIKEKLKEF,1,0.0,241,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DNTYLNTAESLYDEF,1,0.0,242,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DNVVLQLQVARFLMKTVAQ,1,0.0,243,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPARALFAAMSQ,1,0.0,244,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPATVKKVVNFL,1,0.0,245,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPAWQGFRELIEKAL,1,0.0,246,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPEKVLFLAGNLLARLTE,1,0.0,247,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPETLEAIAEN,1,0.0,248,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPETNINIGTSYLQYVYQQF,1,0.0,249,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPKRLQASLQTIVGMVVYSW,1,0.0,250,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPLRERQVAEKQLAALGDILSA,1,0.0,251,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPLWKKEMFEKYLSN,1,0.0,252,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPQKADAVAVN,1,0.0,253,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPQKRAVVNQRLYFDMGT,1,0.0,254,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPTKLNHAVAGL,1,0.0,255,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DPYVILITEILL,1,0.0,256,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DQDKIQKAIAAG,1,0.0,257,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DQEDVAQTIRDYD,1,0.0,258,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DQGTLFELILAANYLD,1,0.0,259,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DQHLMAEYRELPRVFGAVRKHVANG,1,0.0,260,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DQNGEIYMWPVAQA,1,0.0,261,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DQQGVFVKGYAM,1,0.0,262,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DRASYEARERHVAERLLMHLEEM,1,0.0,263,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DRAVIEHNLLSASKL,1,0.0,264,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DRQLRSSIERVISIFQS,1,0.0,265,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DRTSFDKLANS,1,0.0,266,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DSEQVVHQLERLIAR,1,0.0,267,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DSGYRSAMSVQSSL,1,0.0,268,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DSMVVLQQRAYEILMTIME,1,0.0,269,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DSSVIISALKTYLVSG,1,0.0,270,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DSVASLLDVVKSTG,1,0.0,271,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DSVTNDIFNVAKASIEKHIWMLQAEL,1,0.0,272,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DTAFLMEQLELREELDEIEQAK,1,0.0,273,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DTMKDAGMQMKKVLDS,1,0.0,274,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DTRAWALAEKLFG,1,0.0,275,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DVALADSFDAL,1,0.0,276,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DVEAVEIMQRIHVLRSQGGFN,1,0.0,277,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DVLAEDTITALLH,1,0.0,278,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DVRVKEYFDDIARYFSIGLLNLIHLFG,1,0.0,279,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DWGEAFTAINL,1,0.0,280,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DWLKRLQKIFPPILSI,1,0.0,281,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DWYRTYAELRETA,1,0.0,282,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,DYERFKSYIQTL,1,0.0,283,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EALVHKLTERM,1,0.0,284,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EAQKIDRLVQSFSGAYFQQN,1,0.0,285,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EDDIMYLM,1,0.0,286,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EDDSKLASRKYARIIQKI,1,0.0,287,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EDKEAVFDVVDTLTAVLQVATGVISTL,1,0.0,288,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EDLPKWSGYFEKLLKKN,1,0.0,289,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EDMIFEIFKNYLTKVAYYARQVAEMN,1,0.0,290,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EDNLLRQLAQKV,1,0.0,291,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EELHTSLVEEL,1,0.0,292,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EEMIAEFKAAFDMF,1,0.0,293,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EERVKNGLERLKKAIKSGKQST,1,0.0,294,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EESDIKYKTSKNFINKVY,1,0.0,295,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EEVKKHGTTVLTALGRILKQ,1,0.0,296,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EFPEMLAEIIT,1,0.0,297,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EFRDLHLFLGEAAETAEEVADELAERVQAL,1,0.0,298,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EGDQQLLKRVLVRKL,1,0.0,299,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EGHVAAVEVLRGIHRIADMS,1,0.0,300,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EGKDRELYGKLHETLKKVTEDLEA,1,0.0,301,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EGNKRLDSVNSIVS,1,0.0,302,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EGQQRRIRQQRLISIGKWIADNQ,1,0.0,303,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EGVAWLEAVLRLLAQ,1,0.0,304,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EHEIQEWYKGFLRD,1,0.0,305,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EIEKFRVWISIL,1,0.0,306,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EISEMVRMRERILDSIHLG,1,0.0,307,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EISKLVKKMISSWKDAIN,1,0.0,308,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EKETFREKFMQH,1,0.0,309,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EKNSYRKLVGNLYFVYSAMEEEMAKF,1,0.0,310,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EKVQYLTRSAIRR,1,0.0,311,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EMNYYTVLFGVSRALGVLAQLIWSRAL,1,0.0,312,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EPEEVFKSVLKEMEG,1,0.0,313,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EPEKVDKLQEPLLEALRLYARRRR,1,0.0,314,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EPGQRKIVMHK,1,0.0,315,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EQEILRQVKKAYDRAARLG,1,0.0,316,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EQEVYAQVARL,1,0.0,317,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EQPSLVRTLDQLEDK,1,0.0,318,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,ERQEVKQMVVATLAES,1,0.0,319,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,ERVRAAMEKLA,1,0.0,320,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,ESLYESIRRRYEEL,1,0.0,321,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,ESPVRKILRIVFHDAI,1,0.0,322,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,ETNIRVALEKSFL,1,0.0,323,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EVKRRFPTKLGAWALIWWLL,1,0.0,324,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EVKRSVNRDFAKWFLIVFI,1,0.0,325,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EVNRNFGERINDLRILILLL,1,0.0,326,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EVVGRVSKLWNEWWLIV,1,0.0,327,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EWQTMVAALQA,1,0.0,328,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,EYKYYKLKLAEMQR,1,0.0,329,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FADLFDPVIQERH,1,0.0,330,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FALRLRRVINRIGQAWR,1,0.0,331,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FEVIDTIKAAVENA,1,0.0,332,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FFSFELVESINDVKKSLR,1,0.0,333,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FGLKVLGWYSEMKRNVQRLERAIEEV,1,0.0,334,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FHSVAEQF,1,0.0,335,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FIAVHEMLDGFRTALIDHLDTMAERAVQ,1,0.0,336,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FKATIADLSKKR,1,0.0,337,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FKEAIEAIAESA,1,0.0,338,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FKGKIIKKVISTGAKLI,1,0.0,339,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FKSIYRFFEHGLK,1,0.0,340,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FKSVQNSLQRILYLWAIRH,1,0.0,341,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FLDQNMLAVIDELMQAL,1,0.0,342,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FLLKKLKKVATGFAKG,1,0.0,343,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FLLSKAKDAKSSAEGAV,1,0.0,344,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FNQRRISSAKFLGELYNY,1,0.0,345,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FNRMFEKSTHHYTDSVGGILR,1,0.0,346,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FPLLVDHTSREADYFRKRLIQLNEG,1,0.0,347,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FPNLASAAFYWSKKEN,1,0.0,348,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FPQLTQNNSRE,1,0.0,349,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FSALNIAVHELSDVGRAIVRN,1,0.0,350,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FSEFIQALSVTSRG,1,0.0,351,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FTELQRDFLRN,1,0.0,352,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FTRIIKAAG,1,0.0,353,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FVPVFFVVVRRR,1,0.0,354,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,FYQTFFDEADELLADMEQHLLDL,1,0.0,355,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GAFRKLLQSAKDN,1,0.0,356,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GAGTSVNMNTNEVLANIGLELM,1,0.0,357,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GAPLARMEVTLALESLFGRF,1,0.0,358,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GAQYIQAAGVALGLKMR,1,0.0,359,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GAVAIARVFSY,1,0.0,360,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GEAEIASLKSQIRA,1,0.0,361,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GEAYLLLERYVAFLRA,1,0.0,362,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GEDAILKKVAEEAAETLMASKD,1,0.0,363,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GEGWAKSILFN,1,0.0,364,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GEKRAEEIKKILMT,1,0.0,365,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GFFGWFNRMFEKSTHHYTDSVGGI,1,0.0,366,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GFKNEVRTPVTKFRIVFFVV,1,0.0,367,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GFMIWHPKMDEYMEEIDGYLDEMSERLITL,1,0.0,368,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GFSVQRRLWLAS,1,0.0,369,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GFYPMVAAQRI,1,0.0,370,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GGFAAAIARRA,1,0.0,371,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GGKEALAIENFADAL,1,0.0,372,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GGSSGVLMSIFFTAAGQKLEQ,1,0.0,373,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GHNLISLLEVLSG,1,0.0,374,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GIHELAVFAEEH,1,0.0,375,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GKASLRAAELYSKY,1,0.0,376,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GKDAAAEEISQLLYHVQVMMVARG,1,0.0,377,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GKKGPKFIQAVASLKA,1,0.0,378,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GKSNMMDAISFVL,1,0.0,379,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GKTTAALALARELFG,1,0.0,380,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GKTTFVKRHLTG,1,0.0,381,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GKTTILYRLQVG,1,0.0,382,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GLEKLEESIYRE,1,0.0,383,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GLFDKVKSLVPKIAKAV,1,0.0,384,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GLFDVIGSQAGGAAPHFLG,1,0.0,385,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GLFKLIKFAKKKSPGAF,1,0.0,386,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GLGKIIGKVKKSLLKSI,1,0.0,387,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GLGLVLKIAVNAFLKLVA,1,0.0,388,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GLLDIAGGNAETLAGHAV,1,0.0,389,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GLNAELTRYTLSLMVLERKLSSA,1,0.0,390,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GLTSLMAIDKL,1,0.0,391,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GLWAIAVKAGKVILKLIVFIWIRV,1,0.0,392,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GLWKSLGAVVKRVEGLWVGLF,1,0.0,393,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GNFADLLAHSDGLIKNISDDLRALDKLI,1,0.0,394,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GNYLRAEILYRLK,1,0.0,395,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GPDMTAMVALIASV,1,0.0,396,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GPKDAVVKVFNQWG,1,0.0,397,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GPKKAQLIVGWRELHG,1,0.0,398,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GSDFLIHFIDE,1,0.0,399,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GSHANEFFFRA,1,0.0,400,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GTLRHAANAAFIMLEAAEL,1,0.0,401,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GTTTAVIIAGGLLQQAQGLIN,1,0.0,402,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GVSGLAAARQLQSF,1,0.0,403,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GWQNELLLLLRYLDEN,1,0.0,404,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,GYKKVSKSYTGEWKKYLNSL,1,0.0,405,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HAHASAIAKAYASEIAFEAANQAIQIHG,1,0.0,406,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HALRTIVFELLTRH,1,0.0,407,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HDKHIEIVVRQM,1,0.0,408,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HDLVTDGLITLYIETK,1,0.0,409,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HFGSLLLLAAWLAEN,1,0.0,410,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HGLVKAGHPLKRKLGH,1,0.0,411,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HHKAYVDGANTALDKLAEARDK,1,0.0,412,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HKEMAKAFEEW,1,0.0,413,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HLDLINMMSRLAREELVHHEQVLRLMKRR,1,0.0,414,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HMKMRSQLLIVLQEHLRN,1,0.0,415,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HPAFIAHADRVLGGLDIAIST,1,0.0,416,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HPFYQALGQLARLTLAQWQAQL,1,0.0,417,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HQAAMQMLKETINEEAAEWDRLH,1,0.0,418,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HSATRAAMLVRINT,1,0.0,419,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HSDWISNANKVRVIYWQMT,1,0.0,420,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HSRRGLLKMVGKRRRLLAYLRNK,1,0.0,421,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HTFLDDIVGAIAAAAASRLAHSYHD,1,0.0,422,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HVVDEKARLIYED,1,0.0,423,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,HWDKVADMVANFAHEIDTYG,1,0.0,424,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IAMVNGLMGVLDKLAHLIDE,1,0.0,425,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IASEFKNIATNS,1,0.0,426,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IDDLRVIARENLERRRK,1,0.0,427,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IDDSVNNLIPFMQKH,1,0.0,428,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IEEATEFYENDV,1,0.0,429,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IEFRKAFLKIL,1,0.0,430,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IGVQQHADKVQRALGEAIDD,1,0.0,431,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IHNVVGKL,1,0.0,432,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IKPLNNFAAEVGKIRDS,1,0.0,433,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IMELLGTVIQHEGIHQGQYYVALKQSG,1,0.0,434,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IPAAKINWDRDIEYMAGILEN,1,0.0,435,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IPAVANWIKRR,1,0.0,436,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IPEAKSFYGFQIMIENIHSETYSLLIDTYI,1,0.0,437,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,IRVNATKAYEMAL,1,0.0,438,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KDAENHKAYLKSH,1,0.0,439,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KDFETLKVDFLSKLPEMLKMFEDRL,1,0.0,440,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KDTVIEDIIDKTFEEAD,1,0.0,441,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KEDIHRSLVEELTKISAKEK,1,0.0,442,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KEEGYFYFRSRLSQ,1,0.0,443,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KEEVQKVLEDA,1,0.0,444,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KEIAEKMVEGRMKKFTGEV,1,0.0,445,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KFLKKWEGIWATFKPALSAVV,1,0.0,446,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KFLRFILKWFKVIFQ,1,0.0,447,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KFLTKLKNIVANIRIWWVILL,1,0.0,448,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KGQEYINNIHL,1,0.0,449,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KHFDFLAEFNAKAND,1,0.0,450,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KHHAAYVNNLNNALKK,1,0.0,451,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KIPDDLQADFNKFR,1,0.0,452,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KKAEAVATVVAAVDQARVR,1,0.0,453,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KKDVKLILDTILETITEALAK,1,0.0,454,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KKEELQRSLNILTAF,1,0.0,455,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KKQELLEALTKHFQ,1,0.0,456,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KKTAERLIVEMKDRFKG,1,0.0,457,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KKVKGYKRALTE,1,0.0,458,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KLDSRFDNNLGKFRFVLLLFV,1,0.0,459,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KLEEKFPQVAAT,1,0.0,460,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KLKELALIFISNLVAN,1,0.0,461,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KNIKRNVEKIIAQWDERTRK,1,0.0,462,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KPEEVEQIKLYVMSREYEDYMAR,1,0.0,463,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KPEQYNIVGEHLLATLDEMFS,1,0.0,464,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KPQELLSLIIERFE,1,0.0,465,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KPQERADLISYLKEATS,1,0.0,466,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KPWLSVILFLIRERSR,1,0.0,467,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KQAEAEEFVQTLGQSLA,1,0.0,468,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KQLTAIAALAE,1,0.0,469,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KREIIHAVLTGLALDQLAEQ,1,0.0,470,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KREVQNAILTGIQLDKLAED,1,0.0,471,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KSEALAKMWGQRK,1,0.0,472,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KTASTGFAELLKDRREQV,1,0.0,473,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KTFRTTFKTLL,1,0.0,474,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KVAEFERLFRQAAG,1,0.0,475,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KVNRAVAAEIRNWTWVFLIW,1,0.0,476,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KVRETREILDIIDTVYNS,1,0.0,477,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KVRGLIEIISN,1,0.0,478,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KVSDILTVAIRLEEEGERFYRELS,1,0.0,479,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KVVDNFENILII,1,0.0,480,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KVWKGVKTIIADVWQV,1,0.0,481,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KWEAEKIHIGFRQAY,1,0.0,482,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KWVRIWIKVLRGLFVWVWFF,1,0.0,483,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,KYDHFAGRAYVRLHQD,1,0.0,484,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LADLQEQLYNG,1,0.0,485,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LDAYINLGNVLKEA,1,0.0,486,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LDEAATRSKAWMVDALA,1,0.0,487,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LEARMKQFKDMLLER,1,0.0,488,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LEEFDKVSKNVD,1,0.0,489,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LEPIKAWIEKR,1,0.0,490,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LEQVEFKLNQLLENL,1,0.0,491,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LHDAIHMAADNAV,1,0.0,492,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LKRAEALIHLANAALE,1,0.0,493,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LKYVGMVLNEALRLW,1,0.0,494,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LLNIRREFIEKY,1,0.0,495,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LLPALLQQIGREN,1,0.0,496,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LLTEVETYVLSI,1,0.0,497,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LMEPVREAAGRLADA,1,0.0,498,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LMGHQKKILGSIQTMRAQLT,1,0.0,499,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LNNFSRYFLHQSREETEHAEKLMRLQNQRG,1,0.0,500,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LPEDQELLFQSASLELFVLRLAYRA,1,0.0,501,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LPHFYELFSLWA,1,0.0,502,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LPIHYKLSQEFFLKAYEN,1,0.0,503,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LQAPLQRRILEIGKKH,1,0.0,504,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LQMEFKYLAYLTG,1,0.0,505,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LQNAIIEFYTEYY,1,0.0,506,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LQWYVSEQHEEEALFRGIVDKIKLIG,1,0.0,507,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LREIVENMIKSSLERAIAAY,1,0.0,508,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LRSWFRERLIAHRLASVNL,1,0.0,509,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LRTYFMERLRHYRQLSL,1,0.0,510,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LSTVSNFFMNA,1,0.0,511,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LVGALMHVMQKRSR,1,0.0,512,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,LVLPIAQALKVLG,1,0.0,513,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,MEALKKQILQI,1,0.0,514,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,MEKLNQLWEKAQRLH,1,0.0,515,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,MLEEYRKHVAERAAE,1,0.0,516,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,MPEVFNYLGIYLTQA,1,0.0,517,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,MPGTATHTVKMFS,1,0.0,518,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,MPYTDAVVHEVQRYID,1,0.0,519,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,MTDQQAEARAF,1,0.0,520,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,MVFKQMEQVAQFLKAAEDY,1,0.0,521,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,MYSNRMRSYKQEMGKLETDFKRSRI,1,0.0,522,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NAAGWDLLLTLYRSA,1,0.0,523,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NAAQLDALAHALLEIPRFSYATR,1,0.0,524,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NAGQANEFFNEFWS,1,0.0,525,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NAKIARINELAAKAKAGV,1,0.0,526,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NAKYVAEATGNFITVMDALKL,1,0.0,527,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NASRTVGVVAALL,1,0.0,528,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NDAEVKKIAAQYGKD,1,0.0,529,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NDEETVALTAGGHT,1,0.0,530,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NEEVRIEAIIGLSYR,1,0.0,531,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NEQDLGIQYKALKPEVDKLNIMAAKRQQEL,1,0.0,532,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NEYIMSLISDN,1,0.0,533,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NFKDVIETAKKVMNF,1,0.0,534,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NGETFLTELLD,1,0.0,535,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NGLEVVKALAQG,1,0.0,536,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NIDEIERKIDEAIEKE,1,0.0,537,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NIDSYLNAVNIINIFKIIG,1,0.0,538,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NIEQLWRDYNKYEEGIN,1,0.0,539,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NILKQIFKLLQA,1,0.0,540,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NINELFIEISRRI,1,0.0,541,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NIPKHTHRFFILVLEI,1,0.0,542,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NKDQWEERIQVWHEEH,1,0.0,543,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NKEEMMDIVKAIYDMMG,1,0.0,544,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NKLVDRWLHVRKHLLVAYYNLVG,1,0.0,545,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NKQADSIKQMEERNKKRVENFKKTG,1,0.0,546,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NKRAVDWAMRAAMAL,1,0.0,547,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NKSVGAVYAILYLS,1,0.0,548,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NLDSIQEELADVIAWTVSIANLEG,1,0.0,549,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NLEQTARRWLEERG,1,0.0,550,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NLESEIHTVLKHLVENN,1,0.0,551,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NLFDHFSAVAQRL,1,0.0,552,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NLFPIVFGVIFDA,1,0.0,553,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NLLYDIVKENG,1,0.0,554,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NLNQSIDNFVNMAFFA,1,0.0,555,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NLSTLAALVAAAG,1,0.0,556,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NLTQLKASFAVQ,1,0.0,557,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NLVADMRFNVVRESEARLQVSRLYS,1,0.0,558,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NNAITKGFTALEKLLV,1,0.0,559,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NPAAEKMQVLQVLDRLRGKLQEKG,1,0.0,560,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NPAQYLAQHEQLL,1,0.0,561,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NPARALYQTVRELIENSLDA,1,0.0,562,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NPEILLARVKRFLERE,1,0.0,563,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NPERVLLQLKYRYDVEI,1,0.0,564,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NPGQAIWLGEFSKRH,1,0.0,565,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NPMIIEGQIHGGLTEGYAVAMG,1,0.0,566,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NPQVLADIGAEAT,1,0.0,567,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NPRWIGRHKHMFNFLD,1,0.0,568,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NPVLQQHFRNLEALAL,1,0.0,569,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NQDELEGYNLFKGSG,1,0.0,570,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NQPFALEMIKSRQKKD,1,0.0,571,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NQRALLKSLQDYRQHLDQLITLISN,1,0.0,572,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NREANLQALIATG,1,0.0,573,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NRKMAMGRKKFNMD,1,0.0,574,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NSDQDAGIAIIRRAL,1,0.0,575,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NSNHQMLLVQQAEDKIKELLNT,1,0.0,576,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NSNTFLTRLLVHM,1,0.0,577,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NSREREMFVQEVRRYY,1,0.0,578,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NSSDSIDWLTSM,1,0.0,579,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NSVLRAVAEVYA,1,0.0,580,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NTDTLERVTEIFKALG,1,0.0,581,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NTEKLLKTVPIIQNQMDALLD,1,0.0,582,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NTPEAYSVLFDMAREVNRLKAED,1,0.0,583,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NVGKAWAEDVLALVKH,1,0.0,584,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NVKDLADAAKRT,1,0.0,585,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NVKDVTKLVAN,1,0.0,586,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NWDDMEKIWHHTFYN,1,0.0,587,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NYAHLNRGIALYYG,1,0.0,588,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NYEEIYILNHILR,1,0.0,589,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,NYEKFSETKERLLEKF,1,0.0,590,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PAERYYRDARIT,1,0.0,591,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PALDILKALVDNLYVEN,1,0.0,592,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PATSRKIFKYIRELDE,1,0.0,593,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PDEVSALRRTTEKNTTTLINLAKQH,1,0.0,594,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PDFRKAFKRLL,1,0.0,595,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PDIKAQYQQRWL,1,0.0,596,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PDYREVMETFQE,1,0.0,597,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PEALTVAATEVRRIRDRAIQSDAQVAPMTT,1,0.0,598,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PEDFANHLFTVFD,1,0.0,599,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PEKEAVTLGIKALKSSL,1,0.0,600,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PEVQIAILTEQINNLNEHLRV,1,0.0,601,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PEYEHLYTELTGTIVLLIES,1,0.0,602,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PGLRRAWKRLQ,1,0.0,603,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PGRIQRVARGS,1,0.0,604,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PIAFIHKAI,1,0.0,605,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PIDIDYMISDTLELLR,1,0.0,606,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PIEAFLRLNEELEERG,1,0.0,607,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PIKFIRKA,1,0.0,608,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PKAYAQHVFRS,1,0.0,609,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PKPLVSFFQSLLQLVNHDLLEQQN,1,0.0,610,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PLEELFLEQLEA,1,0.0,611,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PLGRLIHMVNQKKDRLLNEYLS,1,0.0,612,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PLTKGILGFVFTLT,1,0.0,613,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PNDMSRIFNIVKESL,1,0.0,614,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PNGPTHAPWLLAHKIQ,1,0.0,615,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PQHERDVIYEEES,1,0.0,616,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PQSYAMAIARQESA,1,0.0,617,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PQYALELLTVYAWEQGS,1,0.0,618,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PQYSQARVMLVKTISMISIVDDTFDA,1,0.0,619,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PRESFAVLASALALMAAVFERLAVEIRELS,1,0.0,620,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PRRQQSLALRWLVQAANQ,1,0.0,621,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PSALIDQEINVLRQQAAQRF,1,0.0,622,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PSDQQNEMVRE,1,0.0,623,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PSFFRLHKYMDNIFKKHTD,1,0.0,624,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PSSQIVGTQAVFNVMMG,1,0.0,625,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PSVVANTVKGG,1,0.0,626,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PTKEREQVIAHLGL,1,0.0,627,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PTLLDLFAEDIGHANQLLQLVDEEFQALER,1,0.0,628,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PVSDTMDMLTKL,1,0.0,629,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,PWTQRFFESFG,1,0.0,630,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QAGNYASMFWLT,1,0.0,631,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QAKEVLKQHFEKS,1,0.0,632,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QARVWVARAVSEHQRFTA,1,0.0,633,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QASTGSLLNILR,1,0.0,634,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QDDVLEALSAAVR,1,0.0,635,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QDELVWGAYWLYKAT,1,0.0,636,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QDLLDRVLAAHAYWSQ,1,0.0,637,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QEWVELMVEAKE,1,0.0,638,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QFRRGANFKFELGEILEND,1,0.0,639,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QFSRQMLDRKLLLG,1,0.0,640,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QGLAEKIFWSLK,1,0.0,641,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QHLAKLEMKIFFEEL,1,0.0,642,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QIKQTNAGAVYRLIDQLG,1,0.0,643,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QINEMHLLIQQAR,1,0.0,644,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QIPRIAREKIRGLTEYF,1,0.0,645,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QLEESMLYSLN,1,0.0,646,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QLLRGVGAAATAVTQALNELLQHVKA,1,0.0,647,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QLVDRLDQSWQYYQDRLMA,1,0.0,648,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QLVSFLIRLLKVWIRVVI,1,0.0,649,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QMSFWGATVITGLFG,1,0.0,650,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QPNAILEKVFTA,1,0.0,651,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QRAFLKLYMITMTE,1,0.0,652,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QTREHLLLARQI,1,0.0,653,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QVIAKWGAWVKRIEAKFRSL,1,0.0,654,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QVIEVLNKQVADWSVLFTKLHNFHWYV,1,0.0,655,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,QVTQELRALMDETMKELKAYKSELEE,1,0.0,656,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RAAAIEQLKIWGERVG,1,0.0,657,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RDIPELAQLQSEILDAIW,1,0.0,658,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,REEEKEALRFAEAQ,1,0.0,659,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,REEIYQAFEAIYPVLSEF,1,0.0,660,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,REGFLSPLKAYLI,1,0.0,661,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RFESAVETLLDIESQLEDL,1,0.0,662,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RFLIRVYHPLLLKVL,1,0.0,663,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RFLKRVQPLVNRWLLLI,1,0.0,664,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RFSGKVREDLTKIVWVFFW,1,0.0,665,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RFVPRWRTVVGQFKRDILVIFLW,1,0.0,666,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RGEQMKGHAATIEDQVRRMIA,1,0.0,667,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RGFRGWWLASTILLLVAEK,1,0.0,668,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RGQLIREAYED,1,0.0,669,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RHSDNINKFLDFIHGI,1,0.0,670,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RIENGLRKRLQSIYRHLEE,1,0.0,671,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RILKNFDSWWGKVIVIL,1,0.0,672,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RILQWIIRLLLIVWW,1,0.0,673,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RIWARLQGVFRVVFWL,1,0.0,674,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RKQSLEQDLQFYYG,1,0.0,675,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RLDEAEASARSGIEVL,1,0.0,676,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RLFEQASRLAEHY,1,0.0,677,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RLKSGWRDALKQIVFFFFL,1,0.0,678,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RLLGKWSAILKNVRFFFFWL,1,0.0,679,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RLVVLEALTNFLNH,1,0.0,680,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RLWTQWQAIVQEIRFLWLLL,1,0.0,681,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RMDEVRTLQENLRQLQDEYDQQQT,1,0.0,682,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RNEVVSLMQANG,1,0.0,683,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RPEDKSKIVAEIR,1,0.0,684,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RPEVQDALSAE,1,0.0,685,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RPQLRNLLHEK,1,0.0,686,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RPRIIAAIWHYVKAR,1,0.0,687,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RRQELEEFSAALARR,1,0.0,688,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RVIEGIKNVIPKLLTWWP,1,0.0,689,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RVNAAIPNIIV,1,0.0,690,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RVWRWIVKWWLFV,1,0.0,691,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,RYGWRTAVDYSWFG,1,0.0,692,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SAATADFVAMTAMAARIF,1,0.0,693,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SAAWAEWQKAR,1,0.0,694,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SAEEMVQTLVNDYSALIQELKEGMEVAGEA,1,0.0,695,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SANNIIEEIQMQK,1,0.0,696,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SASSQNAWLAANRN,1,0.0,697,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SAVKVLAEESK,1,0.0,698,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SDEFNTVADNLVTFGDSFLQVILDHI,1,0.0,699,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SDELSRAWEVAYDELAAAIK,1,0.0,700,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SDIFNKNMRAHALEK,1,0.0,701,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SDIKKLGSSWIINWFFG,1,0.0,702,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SDSEISTILSDVVTNER,1,0.0,703,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SDWYLKGRLTSLESQFINALGILET,1,0.0,704,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SEAAKAYMKGLEYQMSGNEQWSKT,1,0.0,705,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SEEEENNVIEQAKEEIKEAIKKADET,1,0.0,706,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SEELNSAWTIAYDELAIVIKKEMDDA,1,0.0,707,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SEERIRSGVKRLSKSRQ,1,0.0,708,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SEEVLAMVSRKM,1,0.0,709,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SEEYIQLLKKLI,1,0.0,710,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SEREAVEIIKKN,1,0.0,711,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SESAVSHQLRSLRNL,1,0.0,712,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SESKLIEQAFR,1,0.0,713,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SFADFKAQFTDAAIKN,1,0.0,714,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SFDRVMNAIEEN,1,0.0,715,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SFSRIISELGTRD,1,0.0,716,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SGARRVRIAQTLTEN,1,0.0,717,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SGDELYELLQHILKQRDHHHHH,1,0.0,718,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SGPAYVFYLLDALQNAAIRQ,1,0.0,719,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SGRFWKLYIEAEIKA,1,0.0,720,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SGTIKAAHEVLMEMG,1,0.0,721,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SHAQDIYKEAFNSAWDQY,1,0.0,722,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SIDEKYEAEVKKSEIDHHK,1,0.0,723,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SIERLLEMESL,1,0.0,724,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SIPHLANLLIERSQ,1,0.0,725,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SISRYKTIEWLNYIATEL,1,0.0,726,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SKDALMLEAFEQLLGKRRELLGE,1,0.0,727,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SKDLAQTSYFMATNSLHLT,1,0.0,728,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SKEDIDTAMKLGAG,1,0.0,729,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SKEDVERVKLRINLARNWVKKY,1,0.0,730,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SKEEQRDYVFYLAVGNYRL,1,0.0,731,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SKIQKELVAIMN,1,0.0,732,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SKPIQNVESGFIFALVS,1,0.0,733,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SKYLKSLLSLM,1,0.0,734,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SKYRLTVVVAKRAQQLLRH,1,0.0,735,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SLAEALGWLFVSEGS,1,0.0,736,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SLEQQFSIRSFATQVQNM,1,0.0,737,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SLESLIDMITSI,1,0.0,738,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SLKDQLALAIGKLG,1,0.0,739,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SLLPTLSAIAEL,1,0.0,740,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SLPEMFDKMRPYYEESKKRVKE,1,0.0,741,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SMDHRIERLEYYIQLLVK,1,0.0,742,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SNEQRQDIAFAYQRRTK,1,0.0,743,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SNEVMRILISRSLLQE,1,0.0,744,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SNTELQAVDGRFKRAVASMEAARALTNN,1,0.0,745,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPAEVRDLDFANDASKVLGSIAGKLEK,1,0.0,746,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPAQAEALGVWRRYRAYFDA,1,0.0,747,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPAVIDYVNRLEEIRDNV,1,0.0,748,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPAVQMKIKELYRRR,1,0.0,749,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPEEAAALVDGLR,1,0.0,750,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPEEKEEWMKSIKASISR,1,0.0,751,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPEHRQELIER,1,0.0,752,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPEIASGLKKLIRE,1,0.0,753,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPEQMQVLLDQAG,1,0.0,754,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPEVVVARGEQE,1,0.0,755,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPKEAYAYLEKLRSIIQYTG,1,0.0,756,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPKESEVLRLFAEG,1,0.0,757,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPKSTYSYWASVLN,1,0.0,758,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPSKSLQMILRRALGDFENMLAD,1,0.0,759,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SPVVIKKRIEGLIER,1,0.0,760,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SQESINQLVYMG,1,0.0,761,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SQRQRDELNRAIADYLRSN,1,0.0,762,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SRAITQYIAHR,1,0.0,763,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SRAKASFDTRVAAAELALNR,1,0.0,764,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SRDLQEKYERHMEKLIELANKEVERT,1,0.0,765,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SRKALTEGNIMAVQAMAYFKELIQKRKRH,1,0.0,766,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SRPLHISTFINELDSGFRLL,1,0.0,767,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SRWGVLILVAL,1,0.0,768,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SSAVSRIISKLKQ,1,0.0,769,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SSQNWQRFYQLTKLLDSMHEVVENLL,1,0.0,770,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SSREWFSTLYRLFIG,1,0.0,771,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,STATFYDAKKFLIQE,1,0.0,772,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,STEVVALSRLQGSLQDMLWQLDLS,1,0.0,773,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,STLVQTPALRAVGNIV,1,0.0,774,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,STLVSVAVALAAYKTG,1,0.0,775,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVADHSYRVAFITLLLAEELKKK,1,0.0,776,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVEGLQEFVKNLVGYYI,1,0.0,777,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVEKKVPLLHNFHSFL,1,0.0,778,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVEVAELWSTFMQKWIAYTAAVIDAERDR,1,0.0,779,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVLENHHLAVGFKL,1,0.0,780,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVNSEIYQRVMESFKKEG,1,0.0,781,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVPYFIENLKQHIEMN,1,0.0,782,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVRKVFHLVRIKQVAWANEG,1,0.0,783,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVSRAAITAAY,1,0.0,784,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVSSIKQAVDFLSNE,1,0.0,785,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVTELITKAVSA,1,0.0,786,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVTKILQRFEDAGG,1,0.0,787,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SVWASISSYLDELTEGL,1,0.0,788,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SWQSLKDRYLKHL,1,0.0,789,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,SYKDLFLELYGKIKD,1,0.0,790,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TAAQELMIQQLVAAQLQ,1,0.0,791,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TAEQRREMLEAKRKQIINFISRN,1,0.0,792,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TAESFYNQGIRLSFEQWG,1,0.0,793,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TAHEAVLDFLTGRVEVFT,1,0.0,794,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TAKQIQAAYLLVENELM,1,0.0,795,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TAPEMTALVGGMRVLG,1,0.0,796,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TDAEAKQLAQWILS,1,0.0,797,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TDKQFENRLNDNLEELIQ,1,0.0,798,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TDLEILALLIAALSH,1,0.0,799,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TDQQKVSEIFQSSKEKLQGDAKVVSDAFK,1,0.0,800,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TEAKKEELLRKLNILEVF,1,0.0,801,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TEEEMLQAAHITAKLAQAAET,1,0.0,802,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TEKGKEIFGEILSNFESLLKSVLEK,1,0.0,803,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TEQDIIDLKFAIAD,1,0.0,804,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TEQNFQLAKQIQSQWKEFG,1,0.0,805,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TEREQALAAYAEKLTRH,1,0.0,806,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TESMKTVRIREKIKKFL,1,0.0,807,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TETQIRELLFDLELAYKSFYALL,1,0.0,808,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TEVYQILNRVS,1,0.0,809,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TFPDKALKGKKSIENIVV,1,0.0,810,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TFPEWHRLYTVQFEDALRRH,1,0.0,811,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TFPNWHRLLTKQMEDALVAK,1,0.0,812,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TFSQVLDDLSARFI,1,0.0,813,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TGALRTQYDVSLMTVKS,1,0.0,814,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,THAEMLHALKERY,1,0.0,815,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,THNKLLKNVAFMKSYILEKVKEHQES,1,0.0,816,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TIEEFHSKLQEATN,1,0.0,817,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TIQSRFNYAWGLIKS,1,0.0,818,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TISLGVSIAHVMEAVE,1,0.0,819,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TITEMVFLAEVYKSGG,1,0.0,820,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TIVELVVRVWRWFLVIWVLW,1,0.0,821,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TKDEFMSGEPIFTKYFQNLV,1,0.0,822,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TKDEQVEGLLA,1,0.0,823,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TKGEREMIVVATSAAN,1,0.0,824,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TKIWLNAARRTGKVPARIRKL,1,0.0,825,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TLDQMRSRLAYDG,1,0.0,826,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TLEDYVRYVTLDM,1,0.0,827,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TLIREWGDAVFDIF,1,0.0,828,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TMEGKFKAVAEDVAQRYMT,1,0.0,829,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TMVQAITDALRIELKND,1,0.0,830,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TNDEIFSILKD,1,0.0,831,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPAKALKSAIHVAYILKK,1,0.0,832,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPDQQTLLHFIMDSYN,1,0.0,833,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPEEVKKHYEILVEDIKYIESG,1,0.0,834,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPEEYQTYVAQVDK,1,0.0,835,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPEKMGEMAQKFRE,1,0.0,836,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPEKRVDRIFAMMD,1,0.0,837,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPERLEKLVKEVL,1,0.0,838,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPETITHYLETVNHAM,1,0.0,839,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPEVVKERLLS,1,0.0,840,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPLGIGITDYYIR,1,0.0,841,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPQDIADRERIFKRFD,1,0.0,842,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPSDIKELRDAMAKVQAD,1,0.0,843,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPVYRTAIRYYLQMLF,1,0.0,844,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPWSKGFLASSYASR,1,0.0,845,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TPYDAKGLLISAIRD,1,0.0,846,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TQAQETQGQAAARAAAADLAAG,1,0.0,847,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TQDLRSHLVHKLVQAIF,1,0.0,848,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TQGLLSEILRK,1,0.0,849,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TQGMQNAMGERFAQYALSSEKLY,1,0.0,850,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TQSDVYAMVGYIHELW,1,0.0,851,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TRELAYMIKKA,1,0.0,852,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TRTQRRIAVVEFIFSLL,1,0.0,853,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TSAQTKVVVDA,1,0.0,854,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TSFDEYVAELDSK,1,0.0,855,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TSHLMGMFYRTIRMMEN,1,0.0,856,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TTDEINAMDKALILYT,1,0.0,857,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TTGNFEKLFVALVEYMRAS,1,0.0,858,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TVEEVNALKNEILKAHA,1,0.0,859,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TVFGTALNYVSLRIL,1,0.0,860,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TVLAALFLAGS,1,0.0,861,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,TYYAKDIAFQFWKM,1,0.0,862,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VADIAKLKVNIIKNVRII,1,0.0,863,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VADPVAAFKWRAQ,1,0.0,864,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VDDNLYPQLERASRKIFEFLERE,1,0.0,865,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VEAIEALLKGN,1,0.0,866,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VFWPTMLKAAG,1,0.0,867,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VGVLLQLLVQA,1,0.0,868,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VGYETAAKLAREAYLTG,1,0.0,869,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VHVLADAFKRYLLD,1,0.0,870,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VIDPLHTHLTRLVAAYTG,1,0.0,871,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VKYAVFEAALTKAITAMSEVQKVSQ,1,0.0,872,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VLSFKTGIISL,1,0.0,873,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VMELLTKTLGWDIQEELNKLT,1,0.0,874,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VMGQNLILNMND,1,0.0,875,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VMPSLLQAFDLTA,1,0.0,876,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VMQWVIRILGGGLQKAL,1,0.0,877,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VNFLVADALKQHRHRRDDVIVMLSAR,1,0.0,878,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VNQFLDYLQEFLGVMNT,1,0.0,879,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VPMQRVLKYHLLLQELVK,1,0.0,880,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VQEVNRFIKAFEEMKALMKSL,1,0.0,881,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VSDARSAITSAQELLDS,1,0.0,882,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VWHYALWSLIQQSEILFAQ,1,0.0,883,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,VYGPFWKNWQAQ,1,0.0,884,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,WATLLAQWADRAL,1,0.0,885,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,WDDIRNDLFRIQNDLFVLGEDVST,1,0.0,886,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YAKGALQYLVPILTQTLT,1,0.0,887,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YDDIIEAAGELG,1,0.0,888,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YDLLKDLEEGIQTLMGRL,1,0.0,889,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YEDKAVELYSRTAR,1,0.0,890,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YETLEFLGDALVNFFIVDLLVQYS,1,0.0,891,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YFSKGIPNVLRR,1,0.0,892,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YGSIGLTNFGYLDKE,1,0.0,893,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YKEPLKAVVKKLLEKE,1,0.0,894,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YKKFRQLIQVN,1,0.0,895,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YLADLFLAPQIHGAINRFQ,1,0.0,896,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YLDKEVKLIKKMGNHLTNLRRVA,1,0.0,897,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YLSESVETIKKLGDHITSLKKLW,1,0.0,898,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YPIVDAAMRQLTETG,1,0.0,899,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YQNIVKAVQYAARKLQ,1,0.0,900,1.0,0.0,0.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,peptides_lung,inactive - virtual,YQQQKKYLGRMTE,1,0.0,901,1.0,0.0,0.0
