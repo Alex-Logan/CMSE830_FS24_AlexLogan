@@ -19,6 +19,7 @@ from sklearn.preprocessing import PowerTransformer
 from sklearn.manifold import TSNE
 from sklearn.cluster import KMeans
 from scipy.stats import pearsonr
+from scipy.stats import ttest_ind, chi2_contingency
 import plotly.graph_objects as go
 from collections import Counter
 
@@ -295,10 +296,7 @@ if page == "Introduction":
 elif page == "Data Loading":
     st.header("Data Loading and Preparation")
     
-    # Load datasets
-    
-
-    # Display heads of both datasets
+        # Display heads of both datasets
     st.subheader("Preview of Datasets")
     st.write("### Breast Cancer Dataset")
     st.write(breastcancer.head())
@@ -308,6 +306,81 @@ elif page == "Data Loading":
     st.write(lungcancer.head())
     st.write("### Peptides Dataset (Lung)")
     st.write(peptides_l.head())
+
+    # =========================================================
+    # COMPREHENSIVE STATISTICAL ANALYSIS
+    # =========================================================
+
+    # Summary Statistics
+    def summary_statistics(df, name):
+        st.subheader(f"Summary Statistics for {name}")
+        st.write(df.describe(include='all'))
+
+    # Correlation Analysis
+    def correlation_analysis(df, target_col, name):
+        st.subheader(f"Correlation Analysis for {name}")
+        numeric_df = df.select_dtypes(include=['float64', 'int64'])
+        if target_col not in numeric_df.columns:
+            st.warning(f"Target column '{target_col}' is not numeric or not found in the dataset.")
+            return
+        correlations = numeric_df.corr()[target_col].sort_values(ascending=False)
+        st.write(correlations)
+
+    # T-Tests for Significant Features
+    def ttest_features(df, target_col):
+        st.subheader(f"T-Tests for Significant Features in {target_col}")
+        numeric_df = df.select_dtypes(include=['float64', 'int64'])
+        if target_col not in numeric_df.columns:
+            st.warning(f"Target column '{target_col}' is not numeric or not found in the dataset.")
+            return []
+        significant_features = []
+        for col in numeric_df.columns:
+            if col != target_col:
+                group1 = df[df[target_col] == 0][col]
+                group2 = df[df[target_col] == 1][col]
+                t_stat, p_val = ttest_ind(group1, group2, nan_policy='omit')
+                if p_val < 0.05:
+                    significant_features.append((col, p_val))
+                    st.write(f"{col}: p-value = {p_val}")
+        st.write("Significant Features:", [x[0] for x in significant_features])
+        return significant_features
+
+    # Chi-Square Test for Peptides Class Distributions
+    def chi_square_test(df, col, name):
+        st.subheader(f"Chi-Square Test for {name} ({col})")
+        if col in df.columns:
+            observed = df[col].value_counts()
+            chi2, p, dof, expected = chi2_contingency(pd.DataFrame([observed, observed]).transpose())
+            st.write(f"Chi-Square Test Results: chi2 = {chi2}, p = {p}")
+        else:
+            st.warning(f"Column '{col}' not found in the dataset.")
+
+    # Perform Summary Statistics
+    summary_statistics(lungcancer, "Lung Cancer Dataset")
+    summary_statistics(peptides_l, "Peptides Lung Dataset")
+    summary_statistics(breastcancer, "Breast Cancer Dataset")
+    summary_statistics(peptides_b, "Peptides Breast Dataset")
+
+    # Perform Correlation Analysis
+    if 'Stage' in lungcancer.columns:
+        stage_mapping = {'Stage I': 1, 'Stage II': 2, 'Stage III': 3, 'Stage IV': 4}
+        lungcancer['Stage_Numeric'] = lungcancer['Stage'].map(stage_mapping)
+
+    if breastcancer['diagnosis'].dtype == 'object':
+        breastcancer['diagnosis'] = breastcancer['diagnosis'].map({'B': 0, 'M': 1})
+
+    correlation_analysis(breastcancer, 'diagnosis', "Breast Cancer Dataset")
+    if 'Stage_Numeric' in lungcancer.columns:
+        correlation_analysis(lungcancer, 'Stage_Numeric', "Lung Cancer Dataset")
+
+    # Perform T-Tests
+    significant_breast = ttest_features(breastcancer, 'diagnosis')
+    if 'Stage_Numeric' in lungcancer.columns:
+        significant_lung = ttest_features(lungcancer, 'Stage_Numeric')
+
+    # Perform Chi-Square Test
+    chi_square_test(peptides_b, 'class', "Peptides Breast Dataset")
+
 
     st.markdown("""
     For the purposes of our analysis, one of the most important parts of the peptides dataset is the class column, which categorizes peptides into four classes based on their activity levels:
