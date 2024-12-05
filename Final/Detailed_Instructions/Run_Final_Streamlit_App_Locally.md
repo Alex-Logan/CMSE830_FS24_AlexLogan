@@ -1,7 +1,5 @@
 # Running the App Locally - A Simple Guide
 
-Welcome to my Streamlit project! This guide will help you set up and explore the dashboard on your local machine.
-
 ## What You Need
 
 Before diving in, ensure you have:
@@ -29,7 +27,7 @@ You’ll need the following libraries to get everything running smoothly:
    Start by cloning the repository to your local system with this command:
    ```bash
    git clone https://github.com/Alex-Logan/CMSE830_FS24_AlexLogan.git
-   cd CMSE830_FS24_AlexLogan/Midterm
+   cd CMSE830_FS24_AlexLogan/Final
    ```
 
 2. **Install What You Need**:  
@@ -48,7 +46,7 @@ You’ll need the following libraries to get everything running smoothly:
 4. **Time to Launch**:  
    Now that everything is ready, kick off the Streamlit app with:
    ```bash
-   streamlit run Peptides_Analysis_Project.py
+   streamlit run ResearchApp.py
    ```
 
 5. **Explore The App**:  
