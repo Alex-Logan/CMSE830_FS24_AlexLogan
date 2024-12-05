@@ -26,7 +26,7 @@ This "Final" section of the repo has a few important components:
   
 - **`Raw_Data`**: Contains the raw datasets the project needs to run and is built off of. The cleaning, processing, altering, etc. of these datasets is done within the code of the app/notebook itself, however, the underlying code re-loads some of those cleaned datasets when necessary due to the need for archival versions of the datasets at certain points in the demonstration, so the folder contains all of the various modified versions as well. Also contains a **data dictionary file** that I **reccomend reading if you want to fully understand the folder's contents**.
 
-- **`Modeling_Approach`**:
+- **`Modeling_Info`**: Documentation on the modeling approaches used in this project.
 
 ### Files:
 
