@@ -1450,7 +1450,7 @@ if page == "Main Insights":  # Replace with your actual section condition
 
     # Add the explanatory text
     st.markdown("""
-    Here's the peptide class distribution visualized, once again making use of encoding in visualization- I say "once again" because all of the visualizations involving diagnosis in the breast cancer dataset leverage the fact that that variable was encoded. Does this bar chart perhaps indicate I should've used SMOTE? Check the end of the notebook for my answer.
+    Here's the peptide class distribution visualized, once again making use of encoding in visualization- I say "once again" because all of the visualizations involving diagnosis in the breast cancer dataset leverage the fact that that variable was encoded. 
     """)
     # Create the box plot for distribution of Area Mean by Diagnosis using the breastcancer dataset
     fig1 = px.box(breastcancer, 
