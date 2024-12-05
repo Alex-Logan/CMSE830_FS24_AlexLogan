@@ -19,3 +19,5 @@
    - **Data Format:** CSV
    - **Description:** This dataset includes features relevant to lung cancer prediction, such as smoking, alcohol consumption, and age, along with the target label indicating the presence or absence of lung cancer. It aims to support research in lung cancer detection and prevention.
    - **Link:** [Lung Cancer Prediction Data](https://www.kaggle.com/datasets/rashadrmammadov/lung-cancer-prediction)
+  
+If you wish to know the semantics behind the multiple versions of the above files present here, you may view the data dictionary in the root folder of this repo.
