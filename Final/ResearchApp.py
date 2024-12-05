@@ -743,6 +743,17 @@ elif page == "Handling the Data":
     lungcancer = pd.read_csv('improved_lungcancer_dataset.csv')
     peptides_l = pd.read_csv('improved_peptides_dataset.csv')
     lungdatamerged = pd.read_csv('cleaned_integrated_lungcancer_peptides_advanced.csv')
+    # If the first attempt fails, try loading from the GitHub path
+    try:
+        lungdatamerged = pd.read_csv('Final/Raw_Data/cleaned_integrated_lungcancer_peptides_advanced.csv')
+        peptides_l = pd.read_csv('Final/Raw_Data/improved_peptides_dataset.csv')
+        lungcancer = pd.read_csv('Final/Raw_Data/improved_lungcancer_dataset.csv')
+    except FileNotFoundError:
+        # If both attempts fail, display an error message
+        st.error("Error loading datasets: Make sure the files are in the correct directory.")
+        st.stop()
+
+
 
     st.write("Lung Cancer Dataset:")
     st.write(lungcancer.head())
