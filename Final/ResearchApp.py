@@ -865,9 +865,22 @@ elif page == "Handling the Data":
     st.success("Feature engineering and advanced data transformation completed successfully.")
 
     # Markdown explanation
-    st.markdown("""
-    To enhance the merged dataset, we began by creating new interaction terms to capture relationships between features...
+     st.markdown("""
+    To enhance the merged dataset, we began by creating new interaction terms to capture relationships between features. Specifically, we calculated the product of Tumor_Size_mm and Smoking_Pack_Years, creating a Tumor_Size_Smoking_Interaction feature. This interaction term provides insight into how tumor size and smoking history might jointly influence patient outcomes.
+
+    Next, we expanded the Survival_Months feature by generating polynomial terms, including its square and cube, to capture potential nonlinear trends in survival data. These polynomial features allow for more nuanced modeling of survival patterns.
+
+    To prepare categorical features for analysis, we performed target encoding on the Stage column, mapping its categories (Stage I through Stage IV) to numerical values. This encoding simplifies downstream modeling while preserving the ordinal nature of the feature.
+
+    We applied a **Yeo-Johnson Power Transform** to the Tumor_Size_mm column to stabilize variance and normalize its distribution. This advanced transformation ensures that the feature aligns better with statistical and machine learning models.
+
+    To reduce the dimensionality of the class-related features, we utilized **Principal Component Analysis (PCA)**, transforming them into two principal components. This step preserves the majority of the variance in the original features while simplifying their representation, which can be particularly useful for clustering and visualization.
+
+    Finally, we implemented **K-Means Clustering** on selected numerical features, including the transformed Tumor_Size_mm, Survival_Months, Smoking_Pack_Years, and the encoded Stage. This unsupervised learning method groups data points into clusters based on shared characteristics, offering an alternative perspective on patterns in the data.
+
+    These feature engineering and advanced transformation steps enhance the merged dataset, making it more robust for predictive modeling and exploratory analysis. The final result is a processed dataset with enriched features and additional insights, ready for machine learning or further statistical investigation.
     """)
+
 
 
 # Add a "Modeling" page
