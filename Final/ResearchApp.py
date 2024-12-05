@@ -865,7 +865,7 @@ elif page == "Handling the Data":
     st.success("Feature engineering and advanced data transformation completed successfully.")
 
     # Markdown explanation
-     st.markdown("""
+    st.markdown("""
     To enhance the merged dataset, we began by creating new interaction terms to capture relationships between features. Specifically, we calculated the product of Tumor_Size_mm and Smoking_Pack_Years, creating a Tumor_Size_Smoking_Interaction feature. This interaction term provides insight into how tumor size and smoking history might jointly influence patient outcomes.
 
     Next, we expanded the Survival_Months feature by generating polynomial terms, including its square and cube, to capture potential nonlinear trends in survival data. These polynomial features allow for more nuanced modeling of survival patterns.
