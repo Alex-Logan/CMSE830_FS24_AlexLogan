@@ -326,6 +326,26 @@ elif page == "Data Loading":
         correlations = numeric_df.corr()[target_col].sort_values(ascending=False)
         st.write(correlations)
 
+    
+    def ttest_features(df, target_col):
+        st.subheader(f"T-Tests for Significant Features in {target_col}")
+        numeric_df = df.select_dtypes(include=['float64', 'int64'])
+        if target_col not in numeric_df.columns:
+            st.warning(f"Target column '{target_col}' is not numeric or not found in the dataset.")
+            return []
+        significant_features = []
+        for col in numeric_df.columns:
+            if col != target_col:
+                group1 = df[df[target_col] == 0][col]
+                group2 = df[df[target_col] == 1][col]
+                t_stat, p_val = ttest_ind(group1, group2, nan_policy='omit')
+                if p_val < 0.05:
+                    significant_features.append((col, p_val))
+                    st.write(f"{col}: p-value = {p_val}")
+        st.write("Significant Features:", [x[0] for x in significant_features])
+        return significant_features
+
+    
     # Chi-Square Test for Peptides Class Distributions
     def chi_square_test(df, col, name):
         st.subheader(f"Chi-Square Test for {name} ({col})")
