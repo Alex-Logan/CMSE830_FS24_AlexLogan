@@ -326,25 +326,6 @@ elif page == "Data Loading":
         correlations = numeric_df.corr()[target_col].sort_values(ascending=False)
         st.write(correlations)
 
-    # T-Tests for Significant Features
-    def ttest_features(df, target_col):
-        st.subheader(f"T-Tests for Significant Features in {target_col}")
-        numeric_df = df.select_dtypes(include=['float64', 'int64'])
-        if target_col not in numeric_df.columns:
-            st.warning(f"Target column '{target_col}' is not numeric or not found in the dataset.")
-            return []
-        significant_features = []
-        for col in numeric_df.columns:
-            if col != target_col:
-                group1 = df[df[target_col] == 0][col]
-                group2 = df[df[target_col] == 1][col]
-                t_stat, p_val = ttest_ind(group1, group2, nan_policy='omit')
-                if p_val < 0.05:
-                    significant_features.append((col, p_val))
-                    st.write(f"{col}: p-value = {p_val}")
-        st.write("Significant Features:", [x[0] for x in significant_features])
-        return significant_features
-
     # Chi-Square Test for Peptides Class Distributions
     def chi_square_test(df, col, name):
         st.subheader(f"Chi-Square Test for {name} ({col})")
@@ -584,7 +565,7 @@ With both datasets cleaned, we aligned them to prepare for integration. Because 
 
 We then explored potential relationships between the datasets by calculating **Pearson correlations** for comparable features (when applicable). To avoid meaningless calculations, we skipped features without variability, ensuring only meaningful comparisons were included. Once these steps were complete, we added a `cancer_type` column to label rows by their dataset of origin (lung cancer or peptides) and merged the datasets into one integrated table. As a final step, we applied **normalization** to all numerical columns in the integrated dataset, scaling their values to a consistent range. This ensured no single column dominated the analysis due to differences in units or magnitudes.
 
-The final result is a clean, unified dataset that combines lung cancer patient data with peptide activity data. With eight rigorous preprocessing and integration steps, this dataset is ready for machine learning, statistical analysis, or visualizations to uncover meaningful patterns and relationships.
+The final result is a (mostly!) clean, unified dataset that combines lung cancer patient data with peptide activity data, after having performed eight rigorous preprocessing and integration steps.
     """)
 
 # Data Handling page
@@ -951,7 +932,6 @@ elif page == "Handling the Data":
 
     Finally, we implemented **K-Means Clustering** on selected numerical features, including the transformed Tumor_Size_mm, Survival_Months, Smoking_Pack_Years, and the encoded Stage. This unsupervised learning method groups data points into clusters based on shared characteristics, offering an alternative perspective on patterns in the data.
 
-    These feature engineering and advanced transformation steps enhance the merged dataset, making it more robust for predictive modeling and exploratory analysis. The final result is a processed dataset with enriched features and additional insights, ready for machine learning or further statistical investigation.
     """)
 
 
@@ -1077,7 +1057,6 @@ if page == "Modeling":
     - The peptides datasets demonstrated excellent structure for classification tasks, achieving perfect scores.
     - Gradient Boosting emerged as a top performer in both classification and regression scenarios.
 
-    These results highlight the importance of aligning preprocessing, algorithm selection, and tuning to the dataset's characteristics for optimal performance.
     """)
 
 
@@ -1541,7 +1520,7 @@ For transparency's sake, the peptides were tested on breast cancer cell lines as
         st.plotly_chart(fig)
 
     st.markdown("""
-    The 3D parabola-like structure in the PCA plot suggests that the data has some inherent quadratic or nonlinear structure in its features. However, the fact that the cancer stage markers (indicated by the colors) are spread all over without clear clustering implies that the variation in the data captured by PCA is not strongly aligned with the cancer stage labels.
+    The fact that the cancer stage markers (indicated by the colors) are spread all over without clear clustering implies that the variation in the data captured by PCA is not strongly aligned with the cancer stage labels.
     """)
 
     # =========================================================
