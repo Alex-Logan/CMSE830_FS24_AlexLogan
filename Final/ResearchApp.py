@@ -224,6 +224,9 @@ try:
     peptides_b = pd.read_csv('peptides_b.csv')
     peptides_l = pd.read_csv('peptides_l.csv')
     lungcancer = pd.read_csv('lungcancer.csv')
+    lungcancer_improved = pd.read_csv('improved_lungcancer_dataset.csv')
+    peptides_l_improved = pd.read_csv('improved_peptides_dataset.csv')
+    lungdatamerged = pd.read_csv('cleaned_integrated_lungcancer_peptides_advanced.csv')
 except FileNotFoundError:
     # If the first attempt fails, try loading from the GitHub path
     try:
@@ -231,10 +234,14 @@ except FileNotFoundError:
         peptides_b = pd.read_csv('Final/Raw_Data/peptides_b.csv')
         peptides_l = pd.read_csv('Final/Raw_Data/peptides_l.csv')
         lungcancer = pd.read_csv('Final/Raw_Data/lungcancer.csv')
+        lungcancer_improved = pd.read_csv('Final/Raw_Data/improved_lungcancer_dataset.csv')
+        peptides_l_improved = pd.read_csv('Final/Raw_Data/improved_peptides_dataset.csv')
+        lungdatamerged = pd.read_csv('Final/Raw_Data/cleaned_integrated_lungcancer_peptides_advanced.csv')
     except FileNotFoundError:
         # If both attempts fail, display an error message
         st.error("Error loading datasets: Make sure the files are in the correct directory.")
         st.stop()
+
 
 # Create a copy of the peptides dataset
 peptides_copy = peptides_b.copy()
@@ -738,28 +745,11 @@ elif page == "Handling the Data":
     # Lung Cancer Data:
     st.markdown("# Lung Cancer Data")
 
-    # Load preprocessed individual datasets
-    st.subheader("Loading Preprocessed Datasets")
-    lungcancer = pd.read_csv('improved_lungcancer_dataset.csv')
-    peptides_l = pd.read_csv('improved_peptides_dataset.csv')
-    lungdatamerged = pd.read_csv('cleaned_integrated_lungcancer_peptides_advanced.csv')
-    # If the first attempt fails, try loading from the GitHub path
-    try:
-        lungdatamerged = pd.read_csv('Final/Raw_Data/cleaned_integrated_lungcancer_peptides_advanced.csv')
-        peptides_l = pd.read_csv('Final/Raw_Data/improved_peptides_dataset.csv')
-        lungcancer = pd.read_csv('Final/Raw_Data/improved_lungcancer_dataset.csv')
-    except FileNotFoundError:
-        # If both attempts fail, display an error message
-        st.error("Error loading datasets: Make sure the files are in the correct directory.")
-        st.stop()
-
-
-
     st.write("Lung Cancer Dataset:")
-    st.write(lungcancer.head())
+    st.write(lungcancer_improved.head())
 
     st.write("Peptides Dataset:")
-    st.write(peptides_l.head())
+    st.write(peptides_l_improved.head())
 
     st.write("Integrated Dataset:")
     st.write(lungdatamerged.head())
@@ -769,35 +759,35 @@ elif page == "Handling the Data":
     # ============================
 
     # Feature Interaction: Tumor_Size_mm x Smoking_Pack_Years
-    lungcancer['Tumor_Size_Smoking_Interaction'] = (
-        lungcancer['Tumor_Size_mm'] * lungcancer['Smoking_Pack_Years']
+    lungcancer_improved['Tumor_Size_Smoking_Interaction'] = (
+        lungcancer_improved['Tumor_Size_mm'] * lungcancer_improved['Smoking_Pack_Years']
     )
 
     st.subheader("Lung Cancer Dataset with Tumor Size and Smoking Interaction")
-    st.write(lungcancer[['Tumor_Size_mm', 'Smoking_Pack_Years', 'Tumor_Size_Smoking_Interaction']].head())
+    st.write(lungcancer_improved[['Tumor_Size_mm', 'Smoking_Pack_Years', 'Tumor_Size_Smoking_Interaction']].head())
 
     # Polynomial Features: Survival_Months
-    lungcancer['Survival_Months_Squared'] = lungcancer['Survival_Months'] ** 2
-    lungcancer['Survival_Months_Cubed'] = lungcancer['Survival_Months'] ** 3
+    lungcancer_improved['Survival_Months_Squared'] = lungcancer_improved['Survival_Months'] ** 2
+    lungcancer_improved['Survival_Months_Cubed'] = lungcancer_improved['Survival_Months'] ** 3
 
     st.subheader("Polynomial Features for Survival Months")
-    st.write(lungcancer[['Survival_Months', 'Survival_Months_Squared', 'Survival_Months_Cubed']].head())
+    st.write(lungcancer_improved[['Survival_Months', 'Survival_Months_Squared', 'Survival_Months_Cubed']].head())
 
     # Target Encoding: Stage
     stage_mapping = {'Stage I': 1, 'Stage II': 2, 'Stage III': 3, 'Stage IV': 4}
-    lungcancer['Stage_Numeric'] = lungcancer['Stage'].map(stage_mapping)
+    lungcancer_improved['Stage_Numeric'] = lungcancer_improved['Stage'].map(stage_mapping)
 
     st.subheader("Target Encoded Stage")
-    st.write(lungcancer[['Stage', 'Stage_Numeric']].head())
+    st.write(lungcancer_improved[['Stage', 'Stage_Numeric']].head())
 
     # Advanced Transformation: Power Transform on Tumor_Size_mm
     power_transformer = PowerTransformer(method='yeo-johnson', standardize=True)
-    lungcancer['Tumor_Size_mm_Transformed'] = power_transformer.fit_transform(
-        lungcancer[['Tumor_Size_mm']].fillna(0)
+    lungcancer_improved['Tumor_Size_mm_Transformed'] = power_transformer.fit_transform(
+        lungcancer_improved[['Tumor_Size_mm']].fillna(0)
     )
 
     st.subheader("Power Transformed Tumor Size")
-    st.write(lungcancer[['Tumor_Size_mm', 'Tumor_Size_mm_Transformed']].head())
+    st.write(lungcancer_improved[['Tumor_Size_mm', 'Tumor_Size_mm_Transformed']].head())
 
     # Dimensionality Reduction: PCA on Class-Related Features
     class_features = [
@@ -805,14 +795,14 @@ elif page == "Handling the Data":
         'class_inactive - virtual', 'class_mod. active'
     ]
 
-    peptides_l[class_features] = peptides_l[class_features].fillna(0)
+    peptides_l_improved[class_features] = peptides_l_improved[class_features].fillna(0)
     pca = PCA(n_components=2, random_state=42)
-    peptides_l[['Class_PCA1', 'Class_PCA2']] = pca.fit_transform(
-        peptides_l[class_features]
+    peptides_l_improved[['Class_PCA1', 'Class_PCA2']] = pca.fit_transform(
+        peptides_l_improved[class_features]
     )
 
     st.subheader("PCA on Class-Related Features")
-    st.write(peptides_l[['Class_PCA1', 'Class_PCA2']].head())
+    st.write(peptides_l_improved[['Class_PCA1', 'Class_PCA2']].head())
 
     # Feature Interaction in Integrated Dataset
     lungdatamerged['Tumor_Size_Smoking_Interaction'] = (
@@ -868,28 +858,17 @@ elif page == "Handling the Data":
     st.write(lungdatamerged[['Cluster_Labels']].head())
 
     # Save the processed datasets
-    lungcancer.to_csv('improved_lungcancer_processed.csv', index=False)
-    peptides_l.to_csv('improved_peptides_processed.csv', index=False)
+    lungcancer_improved.to_csv('improved_lungcancer_processed.csv', index=False)
+    peptides_l_improved.to_csv('improved_peptides_processed.csv', index=False)
     lungdatamerged.to_csv('transformed_lungdatamerged.csv', index=False)
 
     st.success("Feature engineering and advanced data transformation completed successfully.")
 
     # Markdown explanation
     st.markdown("""
-    To enhance the merged dataset, we began by creating new interaction terms to capture relationships between features. Specifically, we calculated the product of `Tumor_Size_mm` and `Smoking_Pack_Years`, creating a `Tumor_Size_Smoking_Interaction` feature. This interaction term provides insight into how tumor size and smoking history might jointly influence patient outcomes.
-
-    Next, we expanded the `Survival_Months` feature by generating polynomial terms, including its square and cube, to capture potential nonlinear trends in survival data. These polynomial features allow for more nuanced modeling of survival patterns.
-
-    To prepare categorical features for analysis, we performed target encoding on the `Stage` column, mapping its categories (`Stage I` through `Stage IV`) to numerical values. This encoding simplifies downstream modeling while preserving the ordinal nature of the feature.
-
-    We applied a **Yeo-Johnson Power Transform** to the `Tumor_Size_mm` column to stabilize variance and normalize its distribution. This advanced transformation ensures that the feature aligns better with statistical and machine learning models.
-
-    To reduce the dimensionality of the class-related features, we utilized **Principal Component Analysis (PCA)**, transforming them into two principal components. This step preserves the majority of the variance in the original features while simplifying their representation, which can be particularly useful for clustering and visualization.
-
-    Finally, we implemented **K-Means Clustering** on selected numerical features, including the transformed `Tumor_Size_mm`, `Survival_Months`, `Smoking_Pack_Years`, and the encoded `Stage`. This unsupervised learning method groups data points into clusters based on shared characteristics, offering an alternative perspective on patterns in the data.
-
-    These feature engineering and advanced transformation steps enhance the merged dataset, making it more robust for predictive modeling and exploratory analysis. The final result is a processed dataset with enriched features and additional insights, ready for machine learning or further statistical investigation.
+    To enhance the merged dataset, we began by creating new interaction terms to capture relationships between features...
     """)
+
 
 # Add a "Modeling" page
 if page == "Modeling":
