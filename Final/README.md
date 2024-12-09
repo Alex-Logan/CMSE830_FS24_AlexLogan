@@ -10,7 +10,7 @@ The Streamlit app is essentially a simplified, distilled version of what is pres
 
 This is the link to the final version of the project. For archival purposes, the midterm version is preserved on its own separate link which you can find in the appropriate folder.
 
-The `.ipynb` (Jupyter Notebook) file is somewhat large. I uploaded a `.zip` file so that the `.ipynb` file could be uploaded to this repo at all. For the Midterm, I included an `.html` file version of the notebook if the end user did not have a particular interest in running the Jupyter code cells themself (likely isn't really necessary for this project). Unfortunately, plots weren't playing nice with the `.html` this time around, so is just the `.ipynb` this time.
+The `.ipynb` (Jupyter Notebook) file is somewhat large. I uploaded a `.zip` file so that the `.ipynb` file could be uploaded to this repo at all. For the Midterm, I had previously included an `.html` file version of the notebook if the end user did not have a particular interest in running the Jupyter code cells themself (likely isn't really necessary for this project). Unfortunately, plots weren't playing nice with the `.html` this time around, so is just the `.ipynb` this time.
 
 Make sure you have Jupyter installed on your machine if you wish to run the notebook locally. You may also encounter errors while running the notebook if you have not yet installed certain Python packages—this can generally be resolved by running `pip install 'package name'` in an empty code cell, then reloading the file. You can find a more specific list of Python requirements inside the `requirements.txt` file.
 
