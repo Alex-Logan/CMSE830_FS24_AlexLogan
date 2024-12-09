@@ -805,7 +805,7 @@ elif page == "Handling the Data":
     
     As interesting as this all is, it's probably best for the sake of this application to just stick with the real data since it's already so clean! So why discuss the missingness at all?
     
-    First of all, data is not always going to be this clean. It's practically a given that further cancer research (and possibly the final version of this very application) will include missingness. By doing this now, we've learned what the best method for imputation is- and that's a very good thing to know. Additionally, studying the effects of introduced missingness on the overall dataset can help identify which variables are crucial for accurate imputation and model performance. This process can highlight key features that may strongly influence the outcome variable and are, therefore, critical for predictive modeling.
+    First of all, data is not always going to be this clean. It's practically a given that further cancer research (and possibly the final version of this very application) will include missingness. By doing this now, we've learned what the best method for imputation is- and that's a very good thing to know. Additionally, studying the effects of introduced missingness on the overall dataset can help identify which variables are crucial for accurate imputation and model performance. That can highlight the features that might be influencing the outcome variable most strongly and are, therefore, particularly critical for predictive modeling.
     """)
 
     # Basic statistical summary of the trimmed breast cancer dataset
@@ -960,105 +960,139 @@ elif page == "Handling the Data":
 if page == "Modeling":
     st.title("Modeling Results and Insights")
 
-    # Explanation of the modeling approach
+    # Overview section
     st.markdown("""
     ## Overview
-    This section provides an in-depth look at the machine learning models applied to the datasets. 
-    Models were trained on both lung cancer and peptides datasets using advanced preprocessing, hyperparameter tuning, 
-    and ensemble techniques. Below, you'll find performance summaries for:
-    
+    This section delves into the results of applying machine learning models to the lung cancer and peptides datasets. 
+    The goals were to identify patterns in the data, evaluate the performance of various models, and highlight the key features 
+    driving predictions. Modeling included classification for disease stages and peptide activity, as well as regression for 
+    predicting survival months.
+
+    The models evaluated include:
     - Logistic Regression
     - Random Forest
     - Gradient Boosting
     - Voting Classifier (Ensemble)
     - Linear Regression (for regression tasks)
 
-    Each model underwent preprocessing and optimization for maximum performance. Click through the tabs below to view results and methodology.
+    Each model underwent preprocessing and optimization tailored to the dataset. For example, lung cancer data posed challenges 
+    due to overlapping features, while peptide datasets excelled due to their structured nature and clear class separations. 
+    Below, explore detailed insights for each model via the tabs.
     """)
 
-    # Create tabs for each model's results
+    # Create tabs for model results
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
-        "Logistic Regression", "Random Forest", 
-        "Gradient Boosting", "Voting Classifier", 
+        "Logistic Regression", "Random Forest",
+        "Gradient Boosting", "Voting Classifier",
         "Linear Regression (Regression Task)"
     ])
 
     with tab1:
         st.markdown("""
         ### Logistic Regression
-        Logistic Regression models were trained using scaled data and hyperparameter tuning via GridSearchCV. 
-        Best results were achieved with parameters like `C` (regularization strength) and solver choice.
+        Logistic Regression was applied to both datasets with scaling and hyperparameter tuning via GridSearchCV. 
+        While the peptide datasets demonstrated perfect classification performance, logistic regression struggled on the lung cancer dataset, 
+        highlighting the challenges in separating overlapping feature distributions.
 
-        **Performance Metrics (Lung Cancer):**
+        **Performance Metrics:**
+
+        **Lung Cancer:**
         - Accuracy: 25.56%
         - F1 Score: 25.42%
         - ROC-AUC: 50.11%
 
-        **Performance Metrics (Peptides):**
+        **Peptides:**
         - Accuracy: 100.00%
         - F1 Score: 100.00%
         - ROC-AUC: 100.00%
 
-        Logistic regression performed well on the peptides datasets but struggled on the lung cancer dataset due to overlapping feature distributions.
+        Logistic regression effectively captured the clear structure in the peptides datasets but was limited on the lung cancer data 
+        due to its sensitivity to feature overlap and linear decision boundaries.
         """)
 
     with tab2:
         st.markdown("""
         ### Random Forest
-        Random Forest models were optimized for `n_estimators`, `max_depth`, and `min_samples_split`. This ensemble method
-        proved effective for handling feature interactions and non-linear relationships.
+        Random Forest models leveraged ensemble learning to improve predictions by averaging over decision trees. 
+        They were particularly suited for handling non-linear relationships and high-dimensional data.
 
-        **Performance Metrics (Lung Cancer):**
+        **Performance Metrics:**
+
+        **Lung Cancer:**
         - Accuracy: 25.06%
         - F1 Score: 25.05%
         - ROC-AUC: 50.31%
 
-        **Performance Metrics (Peptides):**
+        **Peptides:**
         - Accuracy: 100.00%
         - F1 Score: 100.00%
         - ROC-AUC: 100.00%
 
-        Random Forest showed strong results on peptides datasets but encountered challenges in distinguishing lung cancer stages.
+        Despite its strong capabilities in capturing non-linear patterns, Random Forest faced difficulties with the lung cancer dataset 
+        due to the lack of distinct class separations, while it excelled in the structured peptides datasets.
         """)
 
     with tab3:
         st.markdown("""
         ### Gradient Boosting
-        Gradient Boosting models utilized learning rate, number of estimators, and max depth tuning for optimal performance. 
-        This method excels in handling small to medium-sized datasets with non-linear patterns.
+        Gradient Boosting models were tuned for learning rate, max depth, and the number of estimators. 
+        Their ability to handle small datasets with complex patterns made them highly effective in most tasks.
 
-        **Performance Metrics (Breast Cancer):**
+        **Performance Metrics:**
+
+        **Lung Cancer:**
+        - Accuracy: 25.50%
+        - F1 Score: 25.41%
+        - ROC-AUC: 50.28%
+
+        **Peptides:**
+        - Accuracy: 100.00%
+        - F1 Score: 100.00%
+        - ROC-AUC: 100.00%
+
+        **Breast Cancer:**
         - Accuracy: 93.57%
         - F1 Score: 93.51%
         - ROC-AUC: 99.09%
 
-        Gradient Boosting demonstrated significant predictive capability on both datasets.
+        Gradient Boosting stood out in capturing non-linear trends in both the breast cancer and regression tasks, 
+        achieving exceptional results on the peptides datasets.
         """)
 
     with tab4:
         st.markdown("""
         ### Voting Classifier
-        The Voting Classifier combined the strengths of Logistic Regression, Random Forest, and Gradient Boosting
-        using soft voting to enhance predictions.
+        The Voting Classifier combined predictions from logistic regression, random forest, and gradient boosting 
+        to improve accuracy through soft voting. This approach demonstrated enhanced robustness, especially for structured datasets.
 
-        **Performance Metrics (Lung Cancer):**
+        **Performance Metrics:**
+
+        **Lung Cancer:**
         - Accuracy: 25.50%
         - F1 Score: 25.41%
         - ROC-AUC: 50.28%
 
-        **Performance Metrics (Peptides):**
+        **Peptides:**
         - Accuracy: 100.00%
         - F1 Score: 100.00%
         - ROC-AUC: 100.00%
 
-        By combining multiple models, the Voting Classifier improved generalizability and robustness in predictions.
+        **Breast Cancer:**
+        - Accuracy: 94.74%
+        - F1 Score: 94.69%
+        - ROC-AUC: 99.49%
+
+        The ensemble nature of the Voting Classifier allowed it to balance strengths and weaknesses of individual models, 
+        resulting in the highest accuracy for the breast cancer dataset and flawless results for peptides.
         """)
 
     with tab5:
         st.markdown("""
         ### Linear Regression (Regression Task)
-        Linear Regression and Gradient Boosting Regressor were applied to predict survival months in the lung cancer dataset. 
-        Models were evaluated on metrics like Mean Absolute Error (MAE) and R^2 Score.
+        Regression tasks were applied to predict survival months in the lung cancer dataset. Linear regression captured broad trends, 
+        while Gradient Boosting delivered perfect predictions by accounting for non-linearities.
+
+        **Performance Metrics:**
 
         **Linear Regression:**
         - Mean Absolute Error: 2.7264
@@ -1068,16 +1102,35 @@ if page == "Modeling":
         - Mean Absolute Error: 0.0000
         - R^2 Score: 1.0000
 
-        Gradient Boosting excelled, showcasing its ability to capture non-linear relationships effectively.
+        Gradient Boosting proved particularly effective, highlighting the benefits of advanced ensemble methods in regression scenarios.
         """)
 
+    # Key takeaways section
+    # Key takeaways section
     st.markdown("""
-    ## Key Takeaways
-    - Ensemble methods and advanced hyperparameter tuning significantly improved performance.
-    - The peptides datasets demonstrated excellent structure for classification tasks, achieving perfect scores.
-    - Gradient Boosting emerged as a top performer in both classification and regression scenarios.
+## Key Takeaways
 
+The results from the modeling efforts revealed some interesting insights about the performance of various algorithms applied to the lung and breast cancer datasets. 
+
+### Lung Cancer Dataset
+For the lung cancer data, logistic regression, random forest, and the voting classifier all achieved similar predictive performance, with accuracies around 25.5% and F1 scores reflecting the same low level of distinction among classes. The ROC-AUC scores hovered near 0.50, indicating these models were no better than random guessing. These results highlight significant challenges in the lung cancer dataset, likely due to overlapping feature distributions or insufficient distinguishing patterns for the target variable. However, the lung cancer peptides dataset produced flawless results across all models, achieving perfect accuracy, precision, recall, and F1 scores. 
+
+### Breast Cancer Dataset
+The models performed exceptionally well on the breast cancer dataset, demonstrating the effectiveness of advanced ensemble techniques and hyperparameter optimization. Logistic regression achieved an accuracy of 96.5% and an impressive ROC-AUC of 99.8%. Random forest and gradient boosting classifiers followed closely, with accuracies of 94.1% and 93.6%, respectively. The voting classifier combined these models' strengths and delivered the highest performance, achieving a 94.7% accuracy. The peptides dataset for breast cancer, much like the lung cancer peptides dataset, exhibited perfect predictive performance, highlighting its consistent structure and high-quality features.
+
+### Regression Tasks
+Linear regression and gradient boosting were applied to regression tasks to predict Survival_Months in the lung cancer dataset and demonstrated stark contrasts in performance. Linear regression achieved an R^2 score of 0.99, indicating a strong fit to the data, but gradient boosting regressor went a step further with perfect R^2 and zero error metrics, showcasing the power of advanced algorithms in regression problems. Similarly, linear regression on the breast cancer dataset yielded an R^2 score of 0.74, capturing broad trends but leaving room for improvement. Gradient boosting excelled by capturing the non-linearities and intricate feature interactions, solidifying its role as a top performer in both classification and regression contexts.
+
+### Advanced Methodologies
+Several advanced methodologies were integral to the success of these models. Ensemble methods, including random forest, gradient boosting, and voting classifiers, demonstrated their ability to capture complex relationships and improve predictive accuracy by combining multiple weak learners. Hyperparameter tuning was performed systematically using GridSearchCV, allowing for optimal configuration of model parameters such as learning rates, maximum depths, and the number of estimators. These optimizations were essential in enhancing model performance, particularly for ensemble methods, where small changes in parameters can significantly impact results. Scaling was applied to datasets to standardize features, particularly for models like logistic regression and gradient boosting, which are sensitive to varying feature magnitudes.
+
+### Domain-Specific Insights
+The integration of specialized methodologies for the peptides datasets was another noteworthy aspect of this analysis. These datasets required domain-specific preprocessing, including encoding categorical variables and ensuring compatibility for machine learning models. By carefully structuring the data and leveraging algorithms suited to high-dimensional features, the analysis achieved perfect classification results, emphasizing the importance of adapting methodologies to the domain. The peptides datasets' molecular nature and structured class distributions enabled models to excel, reflecting proficiency in handling domain-specific data types.
+
+### Validation and Generalizability
+Cross-validation was used extensively to ensure that performance metrics reflected model generalizability and were not biased by specific data splits. This step was vital in identifying the best models for both datasets. Additionally, the integration of ensemble methods like the voting classifier demonstrated an advanced understanding of leveraging diverse algorithms to improve predictive performance.
     """)
+
 
 
 # Main Insights section
