@@ -290,8 +290,6 @@ if page == "Introduction":
     Bringing these goals together into a cohesive sum requires a bit of thinking, and we'll get to that soon. For now, there is some work to do to make this data more usable.
 
     While the information presented here is primarily intended for usage by those in the medical community, I hope for the application to be understandable by all - I have tried to keep the language I use casual.
-
-NOTE: If the slider to scroll a page won't appear, try using the arrow keys until it does.
     """)
 
 # Data Loading and Preparation page
