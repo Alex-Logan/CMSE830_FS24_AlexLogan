@@ -4,15 +4,15 @@ This project aims to explore the relationship between anti-cancer peptides and t
 
 ## Project Overview
 
-For this project, the file(s) inside the `Project_Notebook.zip` file are very useful to look through. It is helpful to view the notebook (in either its `.ipynb` or `.html` form; reading both would likely be redundant) to fully understand this project! This project had a rubric for its development: the notebook makes it very clear specifically what I have done to address each step of that rubric, minus the GitHub part (which is covered by this repository) and the Streamlit part (which is of course covered by the Streamlit app itself). Additionally, the notebook contains some additional visualizations, sections, discussion etc. that either didn't play nice with Streamlit integration, or simply bloated the app too much. I **highly** reccomend viewing the notebook to see this project in its true entirety.
+For this project, the file(s) inside the `Project_Notebook.zip` file are very useful to look through. It is helpful to view the notebook to fully understand this project! This project had a rubric for its development: the notebook makes it very clear specifically what I have done to address each step of that rubric, minus the GitHub part (which is covered by this repository) and the Streamlit part (which is of course covered by the Streamlit app itself). Additionally, the notebook contains some additional visualizations, sections, discussion etc. that either didn't play nice with Streamlit integration, or simply bloated the app too much. I **highly** reccomend viewing the notebook to see this project in its true entirety.
 
 The Streamlit app is essentially a simplified, distilled version of what is present in the notebook. The link to that app is here - https://alexlogan-peptidesresearch.streamlit.app/
 
 This is the link to the final version of the project. For archival purposes, the midterm version is preserved on its own separate link which you can find in the appropriate folder.
 
-The `.ipynb` (Jupyter Notebook) file is somewhat large. I uploaded a `.zip` file so that 1.) the `.ipynb` file could be uploaded to this repo at all, and 2.) so that I could include an `.html` file version of the notebook if you do not have a particular interest in running the Jupyter code cells yourself (likely isn't really necessary for this project). If you have any errors with the `.ipynb`, just take a look at the `.html` instead; it includes all the same information.
+The `.ipynb` (Jupyter Notebook) file is somewhat large. I uploaded a `.zip` file so that the `.ipynb` file could be uploaded to this repo at all. For the Midterm, I included an `.html` file version of the notebook if the end user did not have a particular interest in running the Jupyter code cells themself (likely isn't really necessary for this project). Unfortunately, plots weren't playing nice with the `.html` this time around, so is just the `.ipynb` this time.
 
-Make sure you have Jupyter installed on your machine if you wish to run the notebook locally. You may also encounter errors while running the notebook if you have not yet installed certain Python packages—this can generally be resolved by running `pip install 'package name'` in an empty code cell, then reloading the file. The `.html` file, on the other hand, should be completely self-contained and not require you to install anything to view it. You can find a more specific list of Python requirements inside the `requirements.txt` file.
+Make sure you have Jupyter installed on your machine if you wish to run the notebook locally. You may also encounter errors while running the notebook if you have not yet installed certain Python packages—this can generally be resolved by running `pip install 'package name'` in an empty code cell, then reloading the file. You can find a more specific list of Python requirements inside the `requirements.txt` file.
 
 ## Final Section Overview
 
@@ -34,7 +34,7 @@ This "Final" section of the repo has a few important components:
 
 - **`ResearchApp.py`**: This is the final code of the Streamlit app itself—it's what's being run and opened when you access the app. The filename no longer refers to it as a project.
 
-- **`Project_Notebook_Final.zip`**: A zip file containing both a Jupyter Notebook (`.ipynb` file) that shows every step of the project in more detail, including the programming, and an `.html` version of that same notebook. In the Midterm folder, you can find an older version of this.
+- **`Project_Notebook_Final.zip`**: A zip file containing both a Jupyter Notebook (`.ipynb` file) that shows every step of the project in more detail, including the programming. In the Midterm folder, you can find an older version of this.
 
 - **`requirements.txt`**: The packages the app needs to work.
 
